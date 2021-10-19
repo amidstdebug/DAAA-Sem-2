@@ -15,7 +15,5 @@ U
 %Practicals/Practical 1/Practical 1.py,c\1\c15856d4f7f9db0005bb9196df973b29f63e014c
 U
 %Practicals/Practical 3/Practical 3.py,e\7\e7d3689fbea26c24dc08ab45e375c661af4996ad
-k
-;Jupyter Notebooks/.ipynb_checkpoints/Test1-checkpoint.ipynb,4\e\4ee9180e175207b1d3afc9fbbcf156c98fb717e3
 Y
 )Practicals/Practical 0/Practical 0 (4).py,3\6\365ef0bfe2a6bc651fcf182eb1f498aa67b87ea0

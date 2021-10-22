@@ -1,0 +1,21 @@
+<table width="100%" cellpadding="1" cellspacing="0" border="0">
+<tbody><tr><th scope="col">&nbsp;</th>
+<th scope="col"><b>2020 ('000)</b></th>
+<th>2021 ('000)</th>
+<th scope="col"><b>Change (%)</b></th>
+</tr><tr><td>January</td>
+<td>5,950</td>
+<td>145</td>
+<td>(97.6)</td>
+</tr><tr><td>February</td>
+<td>3,450</td>
+<td>118</td>
+<td>(96.6)</td>
+</tr><tr><td>March</td>
+<td>1,650</td>
+<td>166</td>
+<td>(90.0)</td>
+</tr><tr><td>April</td>
+<td>25.2</td>
+<td>173</td>
+<td>587</td>

@@ -1,0 +1,34 @@
+<div class="col-sm-12">
+				<div class="body--chart text-sm-08 text-xs-06">
+					<h2 class="title text-center text-sm-05 text-xs-05 color-custom-3">Yearly Breakdown of Passenger Movements</h2>
+					<div class="chart-block-wrapper">
+						<div class="chart-block" data-module="Chart" data-step="20000">
+                        	<		div class="chart-data hidden">
+								<div class="row" data-x="2017 <span></span>" data-y="62220"></div>
+							
+								<div class="row" data-x="2018 <span></span>" data-y="65630"></div>
+							
+								<div class="row" data-x="2019 <span></span>" data-y="68300"></div>
+							
+								<div class="row" data-x="2020 <span></span>" data-y="11800"></div>
+							
+								<div class="row" data-x="2021 <span>Up to Sep</span>" data-y="1590"></div>
+							</div>
+							
+								<h3 class="title-left text-sm-03 text-xs-03">No. of Passengers ('000)</h3>
+							
+							<div class="inner">
+								<div class="lines"><div style="height: 25%"><span>80000</span></div><div style="height: 25%"><span>60000</span></div><div style="height: 25%"><span>40000</span></div><div style="height: 25%"><span>20000</span></div><div style="height: 0%"><span>0</span></div></div>
+								<div class="data-wrap" style="margin-bottom: 0px;">
+									<div class="data"><div style="width: calc(20% - 5px); height: 77.775%"><span>62220</span></div><div style="width: calc(20% - 5px); height: 82.0375%"><span>65630</span></div><div style="width: calc(20% - 5px); height: 85.375%"><span>68300</span></div><div style="width: calc(20% - 5px); height: 14.75%"><span>11800</span></div><div style="width: calc(20% - 5px); height: 1.9875%"><span>1590</span></div></div>
+									<div class="columns"><div style="width: calc(20% - 5px);">2017 <span></span></div><div style="width: calc(20% - 5px);">2018 <span></span></div><div style="width: calc(20% - 5px);">2019 <span></span></div><div style="width: calc(20% - 5px);">2020 <span></span></div><div style="width: calc(20% - 5px);">2021 <span>Up to Sep</span></div></div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					
+						<h3 class="title-bottom text-center text-sm-05 text-xs-05 color-custom-3">Years</h3>
+					
+				</div>
+			</div>

@@ -1,0 +1,13 @@
+<div class="row" data-x="2017 <span></span>" data-y="62220"></div>
+							
+<div class="row" data-x="2018 <span></span>" data-y="65630"></div>
+							
+<div class="row" data-x="2019 <span></span>" data-y="68300"></div>
+							
+<div class="row" data-x="2020 <span></span>" data-y="11800"></div>
+							
+<div class="row" data-x="2021 <span>Up to Sep</span>" data-y="1590"></div>
+
+
+
+

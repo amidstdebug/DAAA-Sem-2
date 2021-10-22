@@ -1,0 +1,82 @@
+# Metadata for Civil Aircraft Arrivals, Departures, Passengers And Mail, Changi Airport, Monthly
+---
+Identifier: 'd43ebf7e-79b3-42f3-8170-6c46e3bdb899'
+Name: 'civil-aircraft-arrivals-departures-passengers-and-mail-changi-airport-monthly'
+Title: 'Civil Aircraft Arrivals, Departures, Passengers And Mail, Changi Airport,
+  Monthly'
+Description: 'Data from January 1989 refers to Changi Airport only.'
+Topics:
+  - 'Transport'
+Keywords:
+  - 'Changi Airport'
+  - 'International Travel'
+  - 'Logistics'
+  - 'Postal Service'
+Publisher:
+  Name: 'Civil Aviation Authority of Singapore'
+  Admin 1:
+    Name: 'Ng Bo Lin'
+    Department: 'Civil Aviation Authority of Singapore'
+    Email: 'ng_bo_lin@caas.gov.sg'
+  Admin 2:
+    Name: 'Amaliah Hamsah'
+    Department: 'Civil Aviation Authority of Singapore'
+    Email: 'Amaliah_HAMSAH@caas.gov.sg'
+Sources:
+  - 'Civil Aviation Authority of Singapore'
+Source Url: 'http://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=15247&exportType=tidy'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Monthly'
+Coverage: '1980-01-01 to 2020-07-31'
+Last Updated: '2020-08-22T17:38:40.159268'
+Resources:
+  -
+    Identifier: '1a08ce4d-aafc-4fee-afb7-e8f4c3a41d80'
+    Title: 'Civil Aircraft Arrivals, Departures and Passengers, Changi Airport, Monthly'
+    Url: 'https://storage.data.gov.sg/civil-aircraft-arrivals-departures-passengers-and-mail-changi-airport-monthly/resources/civil-aircraft-arrivals-departures-and-passengers-changi-airport-monthly-2020-08-22T17-38-00Z.csv'
+    Format: 'CSV'
+    Coverage: '1980-01-01 to 2020-07-31'
+    Last Updated: '2020-08-22T17:38:00.185450'
+    Schema:
+      -
+        Name: 'month'
+        Title: 'Month'
+        Type: 'datetime'
+        Sub Type: 'month'
+        Format: 'YYYY-MM'
+      -
+        Name: 'level_1'
+        Title: 'Type of Traffic'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'value'
+        Title: 'Value'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Total'
+  -
+    Identifier: '57e7a59d-1e44-404a-bbb5-6684bb0f03bd'
+    Title: 'Volume of Mail, Changi Airport, Monthly'
+    Url: 'https://storage.data.gov.sg/civil-aircraft-arrivals-departures-passengers-and-mail-changi-airport-monthly/resources/volume-of-mail-changi-airport-monthly-2020-08-22T17-38-39Z.csv'
+    Format: 'CSV'
+    Coverage: '1980-01-01 to 2020-07-31'
+    Last Updated: '2020-08-22T17:38:39.354847'
+    Schema:
+      -
+        Name: 'month'
+        Title: 'Month'
+        Type: 'datetime'
+        Sub Type: 'month'
+        Format: 'YYYY-MM'
+      -
+        Name: 'level_1'
+        Title: 'Type of Mail (Incoming or Outgoing)'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'value'
+        Title: 'Value'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Total'

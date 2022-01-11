@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <script type="text/javascript" src="./server.js">
+    </script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div>
+        <p class="id">
+        </p>
+    </div>
+    <script type="text/javascript" src="../server.js">
+            const userInfo = require("../server.js");
+            console.log(userInfo)
+            var username1 = userInfo.username;
+            var password1 = userInfo.password;
+            var request = userInfo.request_type;
+            var final = "Name:" + username1 + "\nPassword: "
+                + password1 + "\nRequest Type:" + request
+            document.getElementsByClassName("id").innerHTML = final;
+
+    </script>
+
+</body>
+</html>

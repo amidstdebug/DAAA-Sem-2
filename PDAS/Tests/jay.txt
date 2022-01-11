@@ -1,0 +1,7 @@
+run ur if loop to check initial state of the stock first
+    then u check if rfid is active
+    while rfid check is active:
+        set a timer for like 10 sec to check
+        then run ur if loop to beep the thing
+    then ur code below will be ur normal if statement lor
+    check if stock is avail

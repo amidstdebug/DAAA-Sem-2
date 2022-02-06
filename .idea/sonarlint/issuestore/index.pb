@@ -109,18 +109,12 @@ T
 $BEWD/Practicals/Practical_1/file.txt,0\2\02327347c74e54a053e6ca7c90a752003ce60320
 U
 %BEWD/Practicals/Practical_1/p1test.js,a\0\a012984cde46da7b047800b4fe7898fab3ff54d6
-C
-PDAS/Tests/test1.py,8\4\845531b940bfeaafb73b14d404cb19524c32f9d5
-r
-BPDAS/DAAA1B04_2112646_Justin_Wong_Juin_Hng/Combined Datasets.ipynb,7\6\762e27c74dd723fbfee1a3793cbe8dcde31eb22d
 e
 5PDAS/DAAA1B04_2112646_Justin_Wong_Juin_Hng/Chart 6.py,5\4\544d9577fa05a013288e4744491dfb0929b4c05a
 e
 5PDAS/DAAA1B04_2112646_Justin_Wong_Juin_Hng/Chart 5.py,9\2\921fbd17deabf3f84a55f8a253fd3e5efa209403
 e
 5PDAS/DAAA1B04_2112646_Justin_Wong_Juin_Hng/Chart 4.py,4\7\472632035dfd3f80d11d1dcd4550d72065a96b1a
-e
-5PDAS/DAAA1B04_2112646_Justin_Wong_Juin_Hng/Chart 1.py,b\0\b0c5aa9b4778ab778c23167556522e89d0067691
 e
 5PDAS/DAAA1B04_2112646_Justin_Wong_Juin_Hng/Chart 3.py,c\5\c5a313c160beabaad1010613827a8d5f2ea4bc94
 Y
@@ -187,3 +181,61 @@ p
 @BEWD/Practicals/Practical_2/nodeJS/node_server/public/error.html,f\2\f297266e3a55462067034b961f4c7635f62e17e8
 Q
 !PDAS/Jupyter_Notebooks/p2q2.ipynb,7\1\71e7e42ee6e47780d36a17a17350b2e948305bc0
+Y
+)PDAS/Assignment 2/(2) Data Cleaning.ipynb,1\3\13a8c58969e2d88e958484bc5367bea7af0c5c6d
+Z
+*PDAS/Assignment 2/(3) Data Wrangling.ipynb,6\6\66eee058f72622c8865e8611a96d05567bf8fab9
+^
+.PDAS/Assignment 2/(4) Data Visualisation.ipynb,6\4\64dd009e138fff0295653ed57e59eb1ddb4c099d
+r
+BPDAS/DAAA1B04_2112646_Justin_Wong_Juin_Hng/Combined Datasets.ipynb,7\6\762e27c74dd723fbfee1a3793cbe8dcde31eb22d
+’
+bBEWD/Assignments/Past/P2112646_Justin_Wong_Juin_Hng_DAAA1B04 Assignment 1/model/databaseConnect.js,1\2\12881c1a7ceda8da8a3a4a3eeeb309973873122e
+e
+5PDAS/DAAA1B04_2112646_Justin_Wong_Juin_Hng/Chart 1.py,b\0\b0c5aa9b4778ab778c23167556522e89d0067691
+[
++PDAS/Assignment 2/(1) Data Extraction.ipynb,5\1\510b050ea8f71d20e849e956562f3950843c7ca6
+C
+PDAS/Tests/test1.py,8\4\845531b940bfeaafb73b14d404cb19524c32f9d5
+l
+<BEWD/Assignments/bed-assignment-2/frontend/package-lock.json,6\2\62fb4606903ea44424e644de16f0dd5b864c4c8e
+g
+7BEWD/Assignments/bed-assignment-2/frontend/package.json,7\d\7d301c9ebdc46083bb65ec31a99c66444697a72e
+~
+NBEWD/Assignments/bed-assignment-2/frontend/public/assets/scss/_video_area.scss,7\c\7c4469eb5c729b921239e327918e824384dae53b
+z
+JBEWD/Assignments/bed-assignment-2/frontend/public/assets/scss/_common.scss,b\f\bf21f0cd1249719e5b8b91f45ce910bddd153381
+p
+@BEWD/Assignments/bed-assignment-2/frontend/public/css/signup.css,5\4\54f7afae0d334336fef98749883b876d53c25aac
+q
+ABEWD/Assignments/bed-assignment-2/backend/model/databaseConfig.js,9\6\96f74309c485a4b78e0c7067b273b35c07dc86fa
+c
+3BEWD/Assignments/bed-assignment-2/backend/server.js,c\7\c7bbfe17430b2a070af71f729dfd0d2dbd2ee49c
+c
+3BEWD/Assignments/bed-assignment-2/backend/config.js,9\0\90c59e8af5f291b9f9dd8692d6c12c5b4d96e988
+m
+=BEWD/Assignments/bed-assignment-2/backend/auth/verifyToken.js,6\f\6f5f4c0dc521921583a299b345411e06a6c8e99d
+k
+;BEWD/Assignments/bed-assignment-2/backend/package-lock.json,9\3\934d683d986e12381ec2c816073ad5e3ed37d490
+f
+6BEWD/Assignments/bed-assignment-2/backend/package.json,8\d\8db29cb89cf3a2622cada8d1f7323abd11fcf1f3
+l
+<BEWD/Assignments/bed-assignment-2/frontend/public/admin.html,4\6\46f45321a2eeb3068b9dec460314df7c8123e3db
+k
+;BEWD/Assignments/bed-assignment-2/frontend/public/blog.html,5\5\553506303433259625e9aa861c1cfdd4c2f21166
+k
+;BEWD/Assignments/bed-assignment-2/frontend/public/cart.html,2\4\2490d169b10b60c88762280493f3601191b8a518
+o
+?BEWD/Assignments/bed-assignment-2/frontend/public/checkout.html,0\7\0700088d4604658e91b8a43797b1ecd4857bcbe5
+s
+CBEWD/Assignments/bed-assignment-2/frontend/public/confirmation.html,a\b\abeedfd66d342bb9a8df61daab77156332db9362
+n
+>BEWD/Assignments/bed-assignment-2/frontend/public/contact.html,5\6\569f434db70124d20a801c997bb0961efb533a6e
+p
+@BEWD/Assignments/bed-assignment-2/frontend/public/interests.html,9\7\97b1852af8d8e8f42335bbd5c5ca472604b42199
+m
+=BEWD/Assignments/bed-assignment-2/frontend/public/search.html,5\b\5b290c34402b8df48eabe7d5b9448d7e8ba394e5
+m
+=BEWD/Assignments/bed-assignment-2/frontend/public/signup.html,1\1\1169833111b83d7993c4d6dcd1ebee76d37adac5
+v
+FBEWD/Assignments/bed-assignment-2/frontend/public/product_details.html,4\8\486b0d21575d42ca575cb996ce8e32dd4a1f7a1e

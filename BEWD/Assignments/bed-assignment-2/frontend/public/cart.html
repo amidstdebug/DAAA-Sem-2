@@ -1,0 +1,515 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>SP IT | Cart</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.ico">
+
+    <!-- CSS here -->
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="./assets/css/flaticon.css">
+        <link rel="stylesheet" href="./assets/css/slicknav.css">
+        <link rel="stylesheet" href="./assets/css/animate.min.css">
+        <link rel="stylesheet" href="./assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="./assets/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="./assets/css/themify-icons.css">
+        <link rel="stylesheet" href="./assets/css/slick.css">
+        <link rel="stylesheet" href="./assets/css/nice-select.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/custom.css">
+
+</head>
+
+<body>
+    <!--? Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="./assets/img/logo/logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Start -->
+    <header>
+        <!-- Header Start -->
+        <div class="header-area">
+            <div class="main-header header-sticky">
+                <div class="container-fluid">
+                    <div class="menu-wrapper">
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a href="/"><img src="./assets/img/logo/logo.png" alt=""></a>
+                        </div>
+                        <!-- Main-menu -->
+                        <div class="main-menu d-none d-lg-block">
+                            <nav>
+                                <ul id="navigation">
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/shop">shop</a></li>
+                                    <li><a href="/reviews">Reviews</a>
+                                        <ul class="submenu">
+                                            <li><a href="/review">All Reviews</a></li>
+                                            <li><a href="/add_review">Add Review</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Pages</a>
+                                        <ul class="submenu">
+                                            <li><a href="/login">Login</a></li>
+                                            <li><a href="/cart">Cart</a></li>
+                                            <li><a href="/elements">Element</a></li>
+                                            <li><a href="/confirmation">Confirmation</a></li>
+                                            <li><a href="/checkout">Product Checkout</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="/contact">Contact</a></li>
+                                    <li id="admin"></li>
+                                    <li id="interest"></li>
+                                    <li id="logout"></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!-- Header Right -->
+                        <div class="header-right">
+                            <ul>
+                                <li>
+                                    <div class="nav-search search-switch">
+                                        <span class="flaticon-search"></span>
+                                    </div>
+                                </li>
+                                <li><a href="/cart"><span class="flaticon-shopping-cart"></span></a> </li>
+                                <li id="user-icon" class="user-icon"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Mobile Menu -->
+                    <div class="col-12">
+                        <div class="mobile_menu d-block d-lg-none"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+    </header>
+
+  <main>
+      <!-- Hero Area Start-->
+      <div class="slider-area ">
+          <div class="single-slider slider-height2 d-flex align-items-center">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-xl-12">
+                          <div class="hero-cap text-center">
+                              <h2>Cart List</h2>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!--================Cart Area =================-->
+      <section class="cart_area section_padding">
+      <div class="container">
+        <div class="cart_inner">
+          <div class="table-responsive">
+            <table class="table" id="cart-table">
+              <thead>
+                <tr>
+                  <th scope="col">Product</th>
+                  <th scope="col">Price</th>
+                  <th scope="col">Quantity</th>
+                  <th scope="col">Total</th>
+                </tr>
+              </thead>
+              <tbody>
+              </tbody>
+            </table>
+            <div class="checkout_btn_inner float-right">
+                      <a class="btn" id="clear-cart" href="/cart">Clear Cart</a> <a class="btn" href="/shop">Continue Shopping</a> <a class="btn" id="cart-redirect" href="javascript:void(0)">Proceed to checkout</a>
+                </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <!--================End Cart Area =================-->
+      <div class="pt-10 pb-10">
+          &nbsp;
+      </div>
+      <!-- subscribe part here -->
+        <section class="subscribe_part section_padding ">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="subscribe_part_content mt-50 mb-50">
+                            <h2>Get promotions & updates!</h2>
+                            <p>Seamlessly empower fully researched growth strategies and interoperable production and communications systems at SP IT!</p>
+                            <div class="subscribe_form">
+                                <form id="subscribe">
+                                    <div id="email-submit">
+                                        <input type="email" placeholder="Enter your mail" id="email">
+                                        <button class="btn_1" type="submit">Subscribe</button>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- subscribe part end -->
+  </main>
+    <footer>
+        <!-- Footer Start-->
+        <div class="footer-area footer-padding">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6">
+                        <div class="single-footer-caption mb-50">
+                            <div class="single-footer-caption mb-30">
+                                <!-- logo -->
+                                <div class="footer-logo">
+                                    <a href="index.html"><img src="./assets/img/logo/logo.png" alt=""></a>
+                                </div>
+                                <div class="footer-tittle">
+                                    <div class="footer-pera">
+                                        <p>Seamlessly empowered fully researched growth strategies and interoperable production and communications systems at SP IT.</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-5">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Quick Links</h4>
+                                <ul>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#"> Offers & Discounts</a></li>
+                                    <li><a href="#"> Get Coupon</a></li>
+                                    <li><a href="#">  Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-7">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>New Products</h4>
+                                <ul>
+                                    <li><a href="#">Laptops</a></li>
+                                    <li><a href="#">Desktops</a></li>
+                                    <li><a href="#"> Smart Phones</a></li>
+                                    <li><a href="#"> Headphones</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-5 col-sm-7">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Support</h4>
+                                <ul>
+                                    <li><a href="#">Frequently Asked Questions</a></li>
+                                    <li><a href="#">Terms & Conditions</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Report a Payment Issue</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer bottom -->
+                <div class="row align-items-center">
+                    <div class="col-xl-5 col-lg-4 col-md-5">
+                        <div class="footer-copy-right f-right">
+                            <!-- social -->
+                            <div class="footer-social">
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-behance"></i></a>
+                                <a href="#"><i class="fas fa-globe"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End-->
+    </footer>
+  <!--? Search model Begin -->
+  <div class="search-model-box">
+      <div class="h-100 d-flex align-items-center justify-content-center">
+          <div class="search-close-btn">+</div>
+          <form class="search-model-form">
+              <input type="text" id="search-input" placeholder="Searching key.....">
+          </form>
+      </div>
+  </div>
+  <!-- Search model end -->
+
+    <!-- JS here -->
+    <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+
+    <!-- Jquery, Popper, Bootstrap -->
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+
+    <!-- Jquery Mobile Menu -->
+    <script src="./assets/js/jquery.slicknav.min.js"></script>
+
+    <!-- Jquery Slick , Owl-Carousel Plugins -->
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+
+    <!-- One Page, Animated-HeadLin -->
+    <script src="./assets/js/wow.min.js"></script>
+    <script src="./assets/js/animated.headline.js"></script>
+
+    <!-- Scroll up, nice-select, sticky -->
+    <script src="./assets/js/jquery.scrollUp.min.js"></script>
+    <script src="./assets/js/jquery.nice-select.min.js"></script>
+    <script src="./assets/js/jquery.sticky.js"></script>
+    <script src="./assets/js/jquery.magnific-popup.js"></script>
+
+    <!-- contact js -->
+    <script src="./assets/js/contact.js"></script>
+    <script src="./assets/js/jquery.form.js"></script>
+    <script src="./assets/js/jquery.validate.min.js"></script>
+    <script src="./assets/js/mail-script.js"></script>
+    <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+
+    <!-- Jquery Plugins, main Jquery -->
+    <script src="./assets/js/plugins.js"></script>
+    <script src="./assets/js/main.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script>
+        const baseUrl = "http://localhost:8001"
+        const token = localStorage.getItem("token");
+        const cart = JSON.parse(localStorage.getItem('cart'))
+        $('.search-switch').on('click', function () {
+          $('.search-model-box').fadeIn(400);
+
+        });
+        $('.search-model-form').submit(function(event){
+            event.preventDefault();
+            window.localStorage.setItem('search-query',$('#search-input').val())
+            window.location.href= '/search'
+        }
+        );
+
+
+        $('.search-close-btn').on('click', function () {
+          $('.search-model-box').fadeOut(400, function () {
+          $('#search-input').val('');
+          });
+        });
+
+
+        $('.search-close-btn').on('click', function () {
+          $('.search-model-box').fadeOut(400, function () {
+          $('#search-input').val('');
+          });
+        });
+
+
+        function cart_display(){
+            //initialise cart
+            const subtotal = []
+            const total_quantity = []
+            let receipt = []
+            $('#clear-cart').on('click',()=>{
+                        window.localStorage.removeItem('cart')
+                        window.localStorage.removeItem('subtotal')
+                        window.localStorage.removeItem('receipt')
+                        window.localStorage.removeItem('subtotal_nocurrency')
+                    })
+            if(cart){
+                //if cart exists
+                for(let i=0;i<cart.length;i++){
+                    let product_id = cart[i].product_id
+                    let quantity = cart[i].quantity
+                    axios.get(`${baseUrl}/product/${product_id}`).then((response)=>{
+                        //get product info for cart
+                        let product_image = response.data[0].product_image_src
+                        let name = response.data[0].name
+                        let price = response.data[0].price
+                        let total_price = (parseInt(quantity) * price).toFixed(2)
+                         $('#cart-table > tbody').append( `
+                            <tr>
+                              <td>
+                                <div class="media">
+                                  <div class="d-flex"><img src="./assets/uploads/v2%20images/${product_image}" alt="card1"></div>
+                                  <div class="media-body">
+                                    <p>${name}</p>
+                                  </div>
+                                </div>
+                              </td>
+                              <td>
+                                <h5>$${price}</h5>
+                              </td>
+                              <td>
+                                 <h5>${quantity}</h5>
+                              </td>
+                              <td>
+                                <h5>$${total_price}</h5>
+                              </td>
+
+                        `);
+                        subtotal.push(parseFloat(total_price))
+                        total_quantity.push(quantity)
+                        receipt.push({"name":name, "quantity":quantity, "total_price":total_price})
+                        //handle receipt data
+
+                    }).catch(function(err){
+                        console.log(err)
+                    }).then(()=>{
+                        if(subtotal.length==cart.length){
+                            // Create our number formatter.
+                            let formatter = new Intl.NumberFormat('en-US', {
+                              style: 'currency',
+                              currency: 'USD',
+
+                            });
+                            let print_subtotal = (subtotal.reduce((partialSum, a) => partialSum + a, 0)).toFixed(2);
+                            window.localStorage.setItem('subtotal_nocurrency', print_subtotal)
+                            print_subtotal = formatter.format(print_subtotal)
+                            let print_quantity = total_quantity.reduce((partialSum, a) => partialSum + a, 0);
+                            $('#cart-table > tbody').append(
+                                `
+
+                                    <tr>
+                                      <td></td>
+                                      <td></td>
+                                      <td>
+                                        <h5>${print_quantity}</h5>
+                                      </td>
+                                      <td>
+                                         <h5>${print_subtotal}</h5>
+                                      </td>
+                                    </tr>
+
+
+                                `
+                            );
+                            window.localStorage.setItem('receipt',JSON.stringify(receipt))
+                            window.localStorage.setItem('subtotal',print_subtotal)
+                            //set subtotal and receipt
+                            console.log(receipt)
+
+
+                        }
+                    }).catch(function(err){
+                        console.log(err)
+                    })
+                }
+            }
+
+        }
+        cart_display()
+        if (token==null) {
+            let postHtml =
+                `
+                    <a href="/login"><span class="flaticon-user"></span></a>
+                `
+            $("#user-icon").append(postHtml);
+        }else {
+
+            //add admin check button
+            axios.get(`${baseUrl}/verify`,{
+            headers: { "Authorization": "Bearer " + token }
+            }).then((response)=>{
+                const type = response.data.type
+                const userid = response.data.userid
+                axios.get(`${baseUrl}/users/${userid}`).then((response)=>{
+                    let profile_pic_url = response.data.profile_pic_url
+                    let postHtml1 =
+                    `
+                        <a href="/login"><span><img src="./assets/uploads/pfp/${profile_pic_url}" alt="user icon" class="img-fluid rounded-circle"></span></a>
+                    `;
+                    $("#user-icon").append(postHtml1);
+
+                }).catch((err)=>{
+                    console.log(err)
+                })
+                $('#subscribe').submit((event) => {
+                    event.preventDefault()
+                    const email = $('#email').val()
+                    let requestBody = {
+                        "email":email
+                    }
+                    if(email!=''){
+                        axios.post(`${baseUrl}/news/${userid}`,requestBody,{
+                         headers: { "Authorization": "Bearer " + token }
+                        }).then((response)=>{
+                            console.log(response)
+                            $('#email-submit').empty()
+                            $('#email-submit').append(
+                                `
+                                    <input type="email" placeholder="Subscribed!" id="email">
+                                    <button class="btn_1" type="submit" aria-disabled="true" disabled>Subscribe</button>
+                                `
+                            )
+                        }).catch((err)=>{
+                            if(err.response.status==422){
+                                $('#email-submit').empty()
+                                $('#email-submit').append(
+                                    `
+                                        <input type="email" placeholder="Email Used!" id="email">
+                                        <button class="btn_1" type="submit" aria-disabled="true">Try Again</button>
+                                    `
+                                )
+                            }
+                        })
+                    }
+
+                })
+                if (type=='admin'){
+                    let postHtml3 =
+                `
+                    <a href="/admin">Admin</a>
+                `
+                $("#admin").append(postHtml3);
+                console.log(type)
+                }
+            }).catch(function(err){
+                console.log(err)
+            })
+
+            //add logout button
+            let postHtml2 =
+                `
+                    <a href="/">Logout</a>
+                `
+            $("#logout").append(postHtml2);
+            let postHtml4 =
+                `
+                <a href="/interests">Interests</a>
+                `
+            $('#interest').append(postHtml4)
+            //add logout button logic
+            $('#logout').click((event) => {
+                event.preventDefault()
+                window.localStorage.clear();
+                window.location.href = '/';
+            })
+        }
+        $('#cart-redirect').on('click',()=>{
+            if(cart){
+                window.location.href='/checkout'
+            }else{
+                window.location.href='/'
+                window.localStorage.setItem('cart-redirect','true')
+            }
+        })
+    </script>
+</body>
+</html>

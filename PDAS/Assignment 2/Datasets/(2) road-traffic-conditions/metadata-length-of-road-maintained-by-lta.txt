@@ -1,0 +1,95 @@
+# Metadata for Length of Roads Maintained by LTA
+---
+Identifier: '31632cbf-cf6a-41d5-9245-ff5aa0dcab86'
+Name: 'length-of-road-maintained-by-lta'
+Title: 'Length of Roads Maintained by LTA'
+Description:
+  - 'Whole Roads or Section of Roads including lane maintained by LTA.'
+  - ''
+  - 'Collector roads are built primarily to feed traffic from local onto arterial
+    roads. It also provides access to adjacent land uses.'
+  - 'Local access roads provide access to various types of land uses. These roads
+    are generally smaller, in terms of width, than collector roads. All public roads
+    maintained by LTA are paved.'
+  - ''
+  - 'Road Length in lane-km data includes all public roads maintained by the Land'
+  - 'Transport Authority. It does not include certain roads such as those maintained
+    by the National Parks Board (Nparks), Housing and Development Board (HDB) and
+    Urban Redevelopment Authority (URA), JTC Corporation (JTC) - including roads in
+    Jurong Island , National Environment Agency (NEA) , Ministry of Home Affairs (ISD),
+    Ministry of Home Affairs (POLICE), Singapore General Hospital (SGH) , Public Utilities
+    Board (PUB), Singapore Land Authority (SLA) , AGRI-Food and Veterinary Authority
+    of Singapore (AVA) as well as roads within Sentosa Island (SDC), airports (CAAS),
+    seaports (PSA), universities (NTU, NUS), Community Improvement Project Committee
+    (CIPC) , Private, Ministry of Home Affairs (prisons), Immigration & Checkpoints
+    Authority (ICA) and military (MINDEF) areas.'
+  - ''
+  - 'The road length is shorter than the as build roads due to re-alignment of Changi
+    Coast Road (Major Road) and Changi Ferry Road (Collector Road).'
+Topics:
+  - 'Transport'
+Keywords:
+  - 'Travel'
+Publisher:
+  Name: 'Land Transport Authority'
+  Admin 1:
+    Name: 'Land Transport Authority'
+    Department: 'Land Transport Authority'
+    Email: 'Datamall@LTA.gov.sg'
+Sources:
+  - 'Land Transport Authority'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2005-01-01 to 2017-12-31'
+Last Updated: '2018-04-06T03:08:18.057073'
+Resources:
+  -
+    Identifier: 'adcf420f-4f4e-4995-9cdf-e910b45a3bc2'
+    Title: 'Length of Roads (Kilometres)'
+    Url: 'https://storage.data.gov.sg/length-of-road-maintained-by-lta/resources/length-of-roads-kilometres-2018-04-06T03-07-31Z.csv'
+    Format: 'CSV'
+    Coverage: '2005-01-01 to 2017-12-31'
+    Last Updated: '2018-04-06T03:07:31.468357'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'road_type'
+        Title: 'Road Type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'road_length'
+        Title: 'Road Length'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Kilometres'
+  -
+    Identifier: '10b8f8d6-071f-4338-b840-c31da5f9b6da'
+    Title: 'Length of Roads (Lane-Kilometres)'
+    Url: 'https://storage.data.gov.sg/length-of-road-maintained-by-lta/resources/length-of-roads-lane-kilometres-2018-04-06T03-08-17Z.csv'
+    Format: 'CSV'
+    Coverage: '2005-01-01 to 2017-12-31'
+    Last Updated: '2018-04-06T03:08:17.619174'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'road_type'
+        Title: 'Road Type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'road_length'
+        Title: 'Road Length'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Lane-Kilometres'

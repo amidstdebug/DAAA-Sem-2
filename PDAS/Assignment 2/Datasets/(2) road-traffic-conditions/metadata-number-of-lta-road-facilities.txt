@@ -1,0 +1,84 @@
+# Metadata for Number of LTA Road Facilities
+---
+Identifier: 'ee652cc1-5369-4c01-a8b4-c0af02dc572f'
+Name: 'number-of-lta-road-facilities'
+Title: 'Number of LTA Road Facilities'
+Description:
+  - 'Road facilities maintained by the Land Transport Authority (LTA).'
+  - ''
+Topics:
+  - 'Infrastructure'
+  - 'Transport'
+Keywords:
+  - 'ERP'
+  - 'Road Facilities'
+  - 'Roads'
+Publisher:
+  Name: 'Land Transport Authority'
+  Admin 1:
+    Name: 'Land Transport Authority'
+    Department: 'Land Transport Authority'
+    Email: 'Datamall@LTA.gov.sg'
+Sources:
+  - 'Land Transport Authority'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '1994-01-01 to 2017-12-31'
+Last Updated: '2018-03-23T03:58:38.101213'
+Resources:
+  -
+    Identifier: 'acdc00fd-5aa4-467c-ad98-466e1d6f26d9'
+    Title: 'Traffic Facilities'
+    Url: 'https://storage.data.gov.sg/number-of-lta-road-facilities/resources/traffic-facilities-2018-03-23T03-40-21Z.csv'
+    Format: 'CSV'
+    Coverage: '1994-01-01 to 2017-12-31'
+    Description: 'Facilities include only those maintained by the Land Transport Authority
+      (LTA). Other road structures maintained by the LTA include culverts, retaining
+      walls, street lightings, etc.'
+    Last Updated: '2018-03-23T03:40:21.570704'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'facility'
+        Title: 'Facility'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'number'
+        Title: 'No. of Facilities'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. of Facilities'
+  -
+    Identifier: '5546efc9-ba74-4f5a-b116-321aae534463'
+    Title: 'Vehicular Facilities'
+    Url: 'https://storage.data.gov.sg/number-of-lta-road-facilities/resources/vehicular-facilities-2018-03-23T03-41-06Z.csv'
+    Format: 'CSV'
+    Coverage: '1994-01-01 to 2017-12-31'
+    Description: 'Facilities include only those maintained by the Land Transport Authority
+      (LTA). Other road structures maintained by the LTA include culverts, retaining
+      walls, street lightings, etc.'
+    Last Updated: '2018-03-23T03:41:06.467393'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'facility'
+        Title: 'Facility'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'number'
+        Title: 'No. of Facilities'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. of Facilities'

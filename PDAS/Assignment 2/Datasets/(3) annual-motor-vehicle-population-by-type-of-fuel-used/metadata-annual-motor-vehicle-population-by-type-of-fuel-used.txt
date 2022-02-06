@@ -1,0 +1,62 @@
+# Metadata for Annual Motor Vehicle Population by Type of Fuel Used
+---
+Identifier: '2fe7ed63-430c-46ec-a96c-7b16e666683a'
+Name: 'annual-motor-vehicle-population-by-type-of-fuel-used'
+Title: 'Annual Motor Vehicle Population by Type of Fuel Used'
+Description: 'All vehicles registered (excluding road tax exempted vehicles) and used
+  on the roads by fuel type.'
+Topics:
+  - 'Transport'
+Keywords:
+  - 'Type of Fuel'
+  - 'Vehicles'
+Publisher:
+  Name: 'Land Transport Authority'
+  Admin 1:
+    Name: 'Land Transport Authority'
+    Department: 'Land Transport Authority'
+    Email: 'Datamall@LTA.gov.sg'
+Sources:
+  - 'Land Transport Authority'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2006-01-01 to 2018-12-31'
+Last Updated: '2020-06-15T01:47:14.774038'
+Resources:
+  -
+    Identifier: '39e17d4c-3bd3-4814-9ae7-bf9df39a2f5d'
+    Title: 'Annual Motor Vehicle Population by Type of Fuel Used'
+    Url: 'https://storage.data.gov.sg/annual-motor-vehicle-population-by-type-of-fuel-used/resources/annual-motor-vehicle-population-by-type-of-fuel-used-2020-06-15T01-47-13Z.csv'
+    Format: 'CSV'
+    Coverage: '2006-01-01 to 2018-12-31'
+    Description:
+      - 'Motor vehicle population by type of fuel used. (End of Period)'
+      - ''
+      - 'Figures exclude tax exempted vehicles and vehicles for off-the-road use (RU
+        plates).'
+      - ''
+      - 'MVP 01-04 - Fuel Used'
+    Last Updated: '2020-06-15T01:47:13.744687'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'type'
+        Title: 'Type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'engine'
+        Title: 'Engine'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'number'
+        Title: 'Number'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Number of Vehicles'

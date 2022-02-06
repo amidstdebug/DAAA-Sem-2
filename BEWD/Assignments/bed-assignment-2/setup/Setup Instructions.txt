@@ -1,0 +1,32 @@
+BEWD Assignment 2 P2112646 Justin Wong Juin Hng
+
+Step 1: Ensure that these modules are present in the project. If not, you can install them in the terminal using npm install module-name
+	1. fs-extra
+	2. express
+	3. cors
+	4. body-parser
+	5. path
+	6. sharp
+	7. multer
+	9. filereader
+	10. mysql
+	11. nodemon
+	12. axios
+	
+
+	Replace module-name with the respective module names in the list.
+
+Step 2: Ensure that the .sql file 'p2112646.sql' is run in the SQL Workbench as a script to ensure that the database and its corresponding tables
+        have been loaded properly and are ready for use. Open the script under File > Open SQL Script and run the script.
+
+Step 3: Open directories 'frontend' and 'backend' in its respective terminal and type 'nodemon' to ensure that the server is running.
+
+Step 4: Head over to http://localhost:3001/
+
+Step 5: Admin Login    =>  username: Amin Nik Strater
+			   email: amin@amail.com
+
+	Customer Login =>  username: Custer Mah 	
+			   email: custer@cmail.com
+
+Step 6: Enjoy your online shopping experience with SP IT! :D

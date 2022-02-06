@@ -1,0 +1,698 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>SP IT | Product</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.ico">
+
+    <!-- CSS here -->
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="./assets/css/flaticon.css">
+        <link rel="stylesheet" href="./assets/css/slicknav.css">
+        <link rel="stylesheet" href="./assets/css/animate.min.css">
+        <link rel="stylesheet" href="./assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="./assets/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="./assets/css/themify-icons.css">
+        <link rel="stylesheet" href="./assets/css/slick.css">
+        <link rel="stylesheet" href="./assets/css/nice-select.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/custom.css">
+</head>
+    
+
+<body>
+    <!--? Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="./assets/img/logo/logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Start -->
+    <header>
+        <!-- Header Start -->
+        <div class="header-area">
+            <div class="main-header header-sticky">
+                <div class="container-fluid">
+                    <div class="menu-wrapper">
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a href="/"><img src="./assets/img/logo/logo.png" alt=""></a>
+                        </div>
+                        <!-- Main-menu -->
+                        <div class="main-menu d-none d-lg-block">
+                            <nav>
+                                <ul id="navigation">
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/shop">shop</a></li>
+                                    <li><a href="/reviews">Reviews</a>
+                                        <ul class="submenu">
+                                            <li><a href="/review">All Reviews</a></li>
+                                            <li><a href="/add_review">Add Review</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Pages</a>
+                                        <ul class="submenu">
+                                            <li><a href="/login">Login</a></li>
+                                            <li><a href="/cart">Cart</a></li>
+                                            <li><a href="/elements">Element</a></li>
+                                            <li><a href="/confirmation">Confirmation</a></li>
+                                            <li><a href="/checkout">Product Checkout</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="/contact">Contact</a></li>
+                                    <li id="admin"></li>
+                                    <li id="interest"></li>
+                                    <li id="logout"></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!-- Header Right -->
+                        <div class="header-right">
+                            <ul>
+                                <li>
+                                    <div class="nav-search search-switch">
+                                        <span class="flaticon-search"></span>
+                                    </div>
+                                </li>
+                                <li><a href="/cart"><span class="flaticon-shopping-cart"></span></a> </li>
+                                <li id="user-icon" class="user-icon"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Mobile Menu -->
+                    <div class="col-12">
+                        <div class="mobile_menu d-block d-lg-none"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+    </header>
+
+    <main>
+        <!-- Hero Area Start-->
+
+
+        <div class="slider-area ">
+            <div class="single-slider slider-height2 d-flex align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="hero-cap text-center">
+                                <h2>Product Shop</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero Area End-->
+        <!--================Single Product Area =================-->
+        <div class="product_image_area">
+            <div class="container">
+            <div class="row justify-content-center">
+                <div class="justify-content-center img-div" id="product-image">
+
+                </div>
+                <div class="col-lg-8">
+                <div class="single_product_text text-center">
+                    <div  id="product-text">
+                    </div>
+                    <div id="prod-cat">
+                    </div>
+                    <div class="card_area">
+                        <div class="product_count_area">
+                            <p>Quantity</p>
+                            <div class="product_count d-inline-block">
+                                <span class="product_count_item number-decrement"> <i class="ti-minus"></i></span>
+                                <input class="product_count_item input-number" type="text" value="1" min="0" max="10">
+                                <span class="product_count_item number-increment"> <i class="ti-plus"></i></span>
+                            </div>
+                            <p id="price" class="pt-10"></p>
+                        </div>
+                    <div class="add_to_cart mb-100">
+                        <a id="cart-btn" class="btn_3">add to cart</a>
+                    </div>
+                    <div id="cart-alert">
+
+                    </div>
+                    </div>
+                        <div class="mb-10" id="review-average">
+
+                        </div>
+                        <section class="blog_area section-padding pt-0">
+                            <div class="container">
+                                <div class="row" id="reviews">
+
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+
+        <!--================End Single Product Area =================-->
+        <!-- subscribe part here -->
+        <section class="subscribe_part section_padding ">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="subscribe_part_content mt-50 mb-50">
+                            <h2>Get promotions & updates!</h2>
+                            <p>Seamlessly empower fully researched growth strategies and interoperable internal or “organic” sources credibly innovate granular internal .</p>
+                            <div class="subscribe_form">
+                                <form id="subscribe">
+                                    <div id="email-submit">
+                                        <input type="email" placeholder="Enter your mail" id="email">
+                                        <button class="btn_1" type="submit">Subscribe</button>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- subscribe part end -->
+    </main>
+    <footer>
+        <!-- Footer Start-->
+        <div class="footer-area footer-padding">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6">
+                        <div class="single-footer-caption mb-50">
+                            <div class="single-footer-caption mb-30">
+                                <!-- logo -->
+                                <div class="footer-logo">
+                                    <a href="index.html"><img src="./assets/img/logo/logo.png" alt=""></a>
+                                </div>
+                                <div class="footer-tittle">
+                                    <div class="footer-pera">
+                                        <p>Seamlessly empowered fully researched growth strategies and interoperable production and communications systems at SP IT.</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-5">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Quick Links</h4>
+                                <ul>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#"> Offers & Discounts</a></li>
+                                    <li><a href="#"> Get Coupon</a></li>
+                                    <li><a href="#">  Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-7">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>New Products</h4>
+                                <ul>
+                                    <li><a href="#">Laptops</a></li>
+                                    <li><a href="#">Desktops</a></li>
+                                    <li><a href="#"> Smart Phones</a></li>
+                                    <li><a href="#"> Headphones</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-5 col-sm-7">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Support</h4>
+                                <ul>
+                                    <li><a href="#">Frequently Asked Questions</a></li>
+                                    <li><a href="#">Terms & Conditions</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Report a Payment Issue</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer bottom -->
+                <div class="row align-items-center">
+                    <div class="col-xl-5 col-lg-4 col-md-5">
+                        <div class="footer-copy-right f-right">
+                            <!-- social -->
+                            <div class="footer-social">
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-behance"></i></a>
+                                <a href="#"><i class="fas fa-globe"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End-->
+    </footer>
+    <!--? Search model Begin -->
+    <div class="search-model-box">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-btn">+</div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Searching key.....">
+            </form>
+        </div>
+    </div>
+    <!-- Search model end -->
+
+    <!-- JS here -->
+    <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+
+    <!-- Jquery, Popper, Bootstrap -->
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+
+    <!-- Jquery Mobile Menu -->
+    <script src="./assets/js/jquery.slicknav.min.js"></script>
+
+    <!-- Jquery Slick , Owl-Carousel Plugins -->
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+
+    <!-- One Page, Animated-HeadLin -->
+    <script src="./assets/js/wow.min.js"></script>
+    <script src="./assets/js/animated.headline.js"></script>
+
+    <!-- Scroll up, nice-select, sticky -->
+    <script src="./assets/js/jquery.scrollUp.min.js"></script>
+    <script src="./assets/js/jquery.nice-select.min.js"></script>
+    <script src="./assets/js/jquery.sticky.js"></script>
+    <script src="./assets/js/jquery.magnific-popup.js"></script>
+
+    <!-- contact js -->
+    <script src="./assets/js/contact.js"></script>
+    <script src="./assets/js/jquery.form.js"></script>
+    <script src="./assets/js/jquery.validate.min.js"></script>
+    <script src="./assets/js/mail-script.js"></script>
+    <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+
+    <!-- Jquery Plugins, main Jquery -->
+    <script src="./assets/js/plugins.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script>
+        const baseUrl = "http://localhost:8001";
+        const token = localStorage.getItem("token");
+        const product_id = localStorage.getItem('product-id')
+        //initialise product details
+        if (product_id==null){
+            window.location.href= '/'
+        }
+
+
+         // click counter js
+          (function() {
+            window.inputNumber = function(el) {
+
+              var min = el.attr('min') || false;
+              var max = el.attr('max') || false;
+
+              var els = {};
+
+              els.dec = el.prev();
+              els.inc = el.next();
+
+              el.each(function() {
+                init($(this));
+              });
+
+              function init(el) {
+
+                els.dec.on('click', decrement);
+                els.inc.on('click', increment);
+
+                function decrement() {
+                  var value = el[0].value;
+                  value--;
+                  if(!min || value >= min) {
+                    el[0].value = value;
+                  }
+                }
+
+                function increment() {
+                  var value = el[0].value;
+                  value++;
+                  if(!max || value <= max) {
+                    el[0].value = value++;
+                  }
+                }
+              }
+            }
+          })();
+
+          inputNumber($('.input-number'));
+            setInterval(function () {
+            }, 1000);
+
+            //append product info
+            axios.get(`${baseUrl}/product/${product_id}`).then((response)=>{
+                let category_id = response.data[0].category_id
+                const product_name = response.data[0].name
+                $('#product-image').append(
+                `
+                    <img src="./assets/uploads/v2%20images/${response.data[0].product_image_src}" alt="#" class="img-size col-lg-8">
+                `
+                )
+                $('#product-text').append(
+                    `
+                            <h3>${response.data[0].brand} ${response.data[0].name}</h3>
+                            <a>
+                                ${response.data[0].description}
+                            </a>
+                    `
+                )
+                $('#price').append(
+                    `
+                        <p>
+                        ${response.data[0].price}
+                        </p>
+                    `
+                )
+                let img_src = response.data[0].product_image_src
+                axios.get(`${baseUrl}/product/${product_id}/reviews`).then((response)=>{
+                    const average = arr => arr.reduce((a,b) => a + b, 0) / arr.length;
+                    let review_avg = []
+                    for(let i=0;i<response.data.length;i++){
+                        review_avg.push(response.data[i].rating)
+                    }
+                    $('#review-average').append(
+                        `
+                             <h3>
+                                 Reviews
+                             </h3>
+                             <a class="mb-10">
+                                  Average rating: ${average(review_avg).toFixed(1)}&#11088;
+                            </a>
+                        `
+                    )
+                    for(let i=0;i<response.data.length;i++){
+                        $('#reviews').append(
+                            `
+                                <div class="col-lg-12 mb-5 mb-lg-0">
+                                                    <div class="blog_left_sidebar">
+                                                        <article class="blog_item">
+                                                            <div class="blog_details">
+                                                                <a class="d-inline-block" href="single-blog.html">
+                                                                    <a id="review_name${i}"></a>
+                                                                </a>
+                                                                <br>
+
+                                                                <a>
+                                                                    <a id="review_text${i}">
+                                                                    </a>
+                                                                </a>
+                                                                <ul class="blog-info-link">
+                                                                    <li><a id="user${i}"></a></li>
+                                                                    <li><a id="date${i}"></a> <a id="month${i}"></a><a id="year${i}"></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </article>
+                                                    </div>
+                                                </div>
+                            `
+                        )
+                        let rating = response.data[i].rating
+                        let text = response.data[i].review
+                        //date formatting
+                        let dateObj = new Date(response.data[i].created_at)
+                        let day = dateObj.getDate();
+                        let month = dateObj.getMonth() + 1; //months from 1-12
+                        let year = dateObj.getFullYear();
+                        month = dateObj.toLocaleString('default', { month: 'long' })
+
+                        $(`#date${i}`).append(
+                            `
+                                ${day}
+                            `
+                        )
+                        $(`#month${i}`).append(
+                            `
+                                ${month}
+                            `
+                        )
+                        $(`#year${i}`).append(
+                            `
+                                ${year}
+                            `
+                        )
+
+                        axios.get(`${baseUrl}/users/${response.data[i].userid}`).then((response)=>{
+                            $(`#review_name${i}`).append(
+                                `
+                                    <h2>
+                                        ${rating} &#11088
+                                    </h2>
+                                `
+                            )
+                            $(`#review_text${i}`).text(
+                                `
+                                    ${text}
+                                `
+                            )
+                            $(`#user${i}`).append(
+                                `
+                                    <i class="fa fa-user"></i> ${response.data.username}
+                                `
+                            )
+                        }).catch((err)=>{
+                        console.log(err)
+                        })
+                    }
+
+
+                    axios.get(`${baseUrl}/catcheck/${category_id}`).then((response)=>{
+                    let category = response.data[0].category
+                    $('#prod-cat').append(
+                    `
+                           <br>
+                            <a class="h4 pt-20">
+                                Category: ${category}
+                            </a>
+                    `
+                )
+                }).catch((err)=>{
+                    console.log(err)
+                    })
+            }).catch((err)=>{
+                    console.log(err)
+            })
+
+                //add to cart
+            $('#cart-btn').on('click',function(){
+                let cart = [];
+                let index;
+                if(localStorage.getItem('cart')){
+                    cart = JSON.parse(localStorage.getItem('cart'));
+                }
+                console.log(cart)
+                if($('.input-number').val()>0){
+                    if(cart.length==0){
+                         cart.push({'product_id' :parseInt(product_id), 'quantity' : parseInt($('.input-number').val())});
+
+                    }
+                    else{
+                        for(let i=0;i<cart.length;i++){
+                            if(cart[i].product_id==product_id){
+                                index=i
+                            }
+                        }
+                        if(index==undefined){
+                            cart.push({'product_id' :parseInt(product_id), 'quantity' : parseInt($('.input-number').val())});
+                        }
+                        else{
+                            cart[index].quantity =  parseInt(cart[index].quantity)+ parseInt($('.input-number').val())
+                        }
+
+                    }
+                    localStorage.setItem('cart', JSON.stringify(cart));
+                }
+                $('#cart-alert').empty()
+                $('#cart-alert').append(
+                    `
+                        <div class="alert alert-success alert-dismissible">
+                          <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                          <strong>Success!</strong>
+                          <br>
+                          ${$('.input-number').val()}x ${product_name} added to <u><a href="/cart">cart!</a></u>
+                        </div>
+                    `
+                )
+            })
+
+        }).catch((err)=>{
+            console.log(err)
+        })
+
+
+        $('.search-switch').on('click', function () {
+          $('.search-model-box').fadeIn(400);
+
+        });
+        $('.search-model-form').submit(function(event){
+            event.preventDefault();
+            window.localStorage.setItem('search-query',$('#search-input').val())
+            window.location.href= '/search'
+        }
+        );
+
+
+        $('.search-close-btn').on('click', function () {
+          $('.search-model-box').fadeOut(400, function () {
+          $('#search-input').val('');
+          });
+        });
+
+
+        $('.search-close-btn').on('click', function () {
+          $('.search-model-box').fadeOut(400, function () {
+          $('#search-input').val('');
+          });
+        });
+
+
+        if (token === null) {
+            let postHtml =
+                `
+                        <a href="/login"><span class="flaticon-user"></span></a>
+                `
+            $("#user-icon").append(postHtml);
+            let postHtml3 =
+                `
+                    <h2>Login</h2>
+                `
+            $("#title1").append(postHtml3);
+
+        } else {
+            axios.get(`${baseUrl}/verify`,{
+            headers: { "Authorization": "Bearer " + token }
+            }).then((response)=>{
+                const type = response.data.type
+                const userid = response.data.userid
+                $('#subscribe').submit((event) => {
+                    event.preventDefault()
+                    const email = $('#email').val()
+                    let requestBody = {
+                        "email":email
+                    }
+                    if(email!=''){
+                        axios.post(`${baseUrl}/news/${userid}`,requestBody,{
+                         headers: { "Authorization": "Bearer " + token }
+                        }).then((response)=>{
+                            console.log(response)
+                            $('#email-submit').empty()
+                            $('#email-submit').append(
+                                `
+                                    <input type="email" placeholder="Subscribed!" id="email">
+                                    <button class="btn_1" type="submit" aria-disabled="true" disabled>Subscribe</button>
+                                `
+                            )
+                        }).catch((err)=>{
+                            if(err.response.status==422){
+                                $('#email-submit').empty()
+                                $('#email-submit').append(
+                                    `
+                                        <input type="email" placeholder="Email Used!" id="email">
+                                        <button class="btn_1" type="submit" aria-disabled="true">Try Again</button>
+                                    `
+                                )
+                            }
+                        })
+                    }
+
+                })
+                if (type=='admin') {
+                    let postHtml3 =
+                        `
+                    <a href="/admin">Admin</a>
+                `
+                    $("#admin").append(postHtml3);
+                }
+                axios.get(`${baseUrl}/users/${userid}`)
+                .then((response) => {
+                    //empty user icon
+                    $("#user-icon").empty();
+                    let userInfo = response.data;
+                    //add logout button
+                    let postHtml1 =
+                        `
+                            <a href="/">Logout</a>
+                        `
+                    $("#logout").append(postHtml1);
+                    let postHtml4 =
+                        `
+                        <a href="/interests">Interests</a>
+                        `
+                    $('#interest').append(postHtml4)
+                    //add logout button logic
+                    $('#logout').click((event)=>{
+                    event.preventDefault()
+                    window.localStorage.clear();
+                    window.location.href='/';
+                    })
+                    //get username
+                    axios.get(`${baseUrl}/users/${userid}`).then((response)=>{
+                        let userInfo = response.data
+                        $("#title1").empty();
+                        let postHtml3 =
+                            `
+                                <h2>Welcome, ${userInfo.username}</h2>
+                            `
+                        $("#title1").append(postHtml3);
+                        let postHtml4= `
+                                <container class="container1 row">
+                                    <button type="button" class="btn btn-outline-dark col-4">View Cart</button>
+                                    <button type="button" class="btn btn-outline-dark col-4">View Account Information</button>
+                                    <button type="button" class="btn btn-outline-dark col-4">View Address Information</button>
+                                    <button type="button" class="btn btn-outline-dark col-4">View Payment Information</button>
+                                    <button type="button" class="btn btn-outline-dark col-4">View Product Information</button>
+                                    <button type="button" class="btn btn-outline-dark col-4 ">Sign Up For Our Newsletter</button>
+                                </container>
+                                `
+                        $('#login_part').append(postHtml4)
+                    })
+
+                })
+                .catch((error) => {
+                    console.log(error);
+                });
+                axios.get(`${baseUrl}/users/${userid}`).then((response)=>{
+                    let profile_pic_url = response.data.profile_pic_url
+                    let postHtml1 =
+                    `
+                        <a href="/login"><span><img src="./assets/uploads/pfp/${profile_pic_url}" alt="user icon" class="img-fluid rounded-circle"></span></a>
+                    `;
+                    $("#user-icon").append(postHtml1);
+
+                }).catch((err)=>{
+                    console.log(err)
+                })
+            })
+        }
+
+    </script>
+</body>
+
+</html>

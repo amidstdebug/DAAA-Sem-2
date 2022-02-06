@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>SP IT | Admin</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.ico">
+
+    <!-- CSS here -->
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="./assets/css/flaticon.css">
+        <link rel="stylesheet" href="./assets/css/slicknav.css">
+        <link rel="stylesheet" href="./assets/css/animate.min.css">
+        <link rel="stylesheet" href="./assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="./assets/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="./assets/css/themify-icons.css">
+        <link rel="stylesheet" href="./assets/css/slick.css">
+        <link rel="stylesheet" href="./assets/css/nice-select.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/custom.css">
+</head>
+<body>
+    <!--? Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="./assets/img/logo/logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Start -->
+    <header>
+        <!-- Header Start -->
+        <div class="header-area">
+            <div class="main-header header-sticky">
+                <div class="container-fluid">
+                    <div class="menu-wrapper">
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a href="/"><img src="./assets/img/logo/logo.png" alt=""></a>
+                        </div>
+                        <!-- Main-menu -->
+                        <div class="main-menu d-none d-lg-block">
+                            <nav>
+                                <ul id="navigation">
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/shop">shop</a></li>
+                                    <li><a href="/reviews">Reviews</a>
+                                        <ul class="submenu">
+                                            <li><a href="/review">All Reviews</a></li>
+                                            <li><a href="/add_review">Add Review</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Pages</a>
+                                        <ul class="submenu">
+                                            <li><a href="/login">Login</a></li>
+                                            <li><a href="/cart">Cart</a></li>
+                                            <li><a href="/elements">Element</a></li>
+                                            <li><a href="/confirmation">Confirmation</a></li>
+                                            <li><a href="/checkout">Product Checkout</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="/contact">Contact</a></li>
+                                    <li id="admin"></li>
+                                    <li id="interest"></li>
+                                    <li id="logout"></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!-- Header Right -->
+                        <div class="header-right">
+                            <ul>
+                                <li>
+                                    <div class="nav-search search-switch">
+                                        <span class="flaticon-search"></span>
+                                    </div>
+                                </li>
+                                <li><a href="/cart"><span class="flaticon-shopping-cart"></span></a> </li>
+                                <li id="user-icon" class="user-icon"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Mobile Menu -->
+                    <div class="col-12">
+                        <div class="mobile_menu d-block d-lg-none"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+    </header>
+    <main>
+         <div>
+        <div class="row m-0 text-center p-10" >
+            <div class="item col-12 p-10">
+                <h1>Add Product</h1>
+                  <div id="addProduct" class="align-items-center">
+                      <form id="new-product-form" enctype="multipart/form-data">
+                          <div class="form-group">
+                              <input type="text" class="form-control" name="Name" placeholder="Product Name" required="required" id="name">
+                          </div>
+                          <div class="form-group">
+                              <input type="text" class="form-control" name="Description" placeholder="Product Description" required="required" id="description">
+                          </div>
+
+
+                          <div class="form-group">
+                              <input type="text" class="form-control" name="Description" placeholder="Product Brand" required="required" id="brand">
+                          </div>
+                          <div class="form-group">
+                              <input type="text" class="form-control" name="Description" placeholder="Product Price" required="required" id="price">
+                          </div>
+                          <div class="form-group">
+                              <select class="form-select" id="category">
+                                  <option selected>Product Category</option>
+                              </select>
+                          </div>
+                          <div>
+                              &nbsp;
+                          </div>
+                          <div class="mb-3 form-group">
+                              <input class="form-control-file" type="file" id="image" required="required">
+                          </div>
+
+                          <div class="form-group">
+                              <button type="submit" class="btn btn-lg btn-block"> Add New Product</button>
+                          </div>
+                      </form>
+                      <div id="prod_alert">
+
+                      </div>
+                  </div>
+            </div>
+        </div>
+         <br>
+         <br>
+        <div class="row m-0 text-center p-10" >
+            <div class="item col-12 p-10">
+                <h1>Edit Product</h1>
+                  <div id="editProduct" class="align-items-center">
+                      <form id="edit-product-form" enctype="multipart/form-data">
+                          <div class="form-group pt-10" id="edit-prod">
+                              <select class="form-select" id="products">
+                                  <option selected>Select Product</option>
+                              </select>
+                          </div>
+                          <br>
+                          <br>
+                          <div class="form-group">
+                              <input type="text" class="form-control" name="Name" placeholder="New Product Name" required="required" id="name1">
+                          </div>
+                          <div class="form-group">
+                              <input type="text" class="form-control" name="Description" placeholder="New Product Description" required="required" id="description1">
+                          </div>
+
+
+                          <div class="form-group">
+                              <input type="text" class="form-control" name="Brand" placeholder="New Product Brand" required="required" id="brand1">
+                          </div>
+                          <div class="form-group">
+                              <input type="text" class="form-control" name="Price" placeholder="New Product Price" required="required" id="price1">
+                          </div>
+                          <div class="form-group" id="edit-cat">
+                              <select class="form-select" id="category1">
+                                  <option selected>New Product Category</option>
+                              </select>
+                          </div>
+                          <div>
+                              &nbsp;
+                          </div>
+                          <div class="mb-3 form-group">
+                              <input class="form-control-file" type="file" id="image1" required="required">
+                          </div>
+
+                          <div class="form-group">
+                              <button type="submit" class="btn btn-lg btn-block"> Edit Product</button>
+                          </div>
+                      </form>
+                      <div id="prod_alert1">
+
+                      </div>
+                  </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row m-0 text-center p-10" >
+            <div class="item col-12 p-10">
+                <h1>Delete Product</h1>
+                  <div id="deleteProduct" class="align-items-center">
+                      <form id="delete-product-form" enctype="multipart/form-data">
+                          <div class="form-group pt-10" id="delete-prod">
+                              <select class="form-select" id="products1">
+                                  <option selected>Select Product</option>
+                              </select>
+                          </div>
+                          <br>
+                          <br>
+
+                          <div class="form-group">
+                              <button type="submit" class="btn btn-lg btn-block">Delete Product</button>
+                          </div>
+                      </form>
+                      <div id="del_alert">
+
+                      </div>
+                  </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row m-0 text-center p-10" >
+            <div class="item col-12 p-10">
+                <h1>Add Category</h1>
+                  <div id="addCategory" class="align-items-center">
+                      <form id="new-category-form" enctype="multipart/form-data">
+                          <div class="form-group">
+                              <input type="text" class="form-control" name="Category" placeholder="Category Name" required="required" id="category_name">
+                          </div>
+                          <div class="form-group">
+                              <input type="text" class="form-control" name="Description" placeholder="Category Description" required="required" id="category_description">
+                          </div>
+                          <div>
+                              &nbsp;
+                          </div>
+                          <div class="form-group">
+                              <button type="submit" class="btn btn-lg btn-block"> Add New Category</button>
+                          </div>
+                      </form>
+                      <div id="cat_alert">
+
+                      </div>
+                  </div>
+            </div>
+        </div>
+
+    </div>
+    </main>
+    <footer>
+        <!-- Footer Start-->
+        <div class="footer-area footer-padding">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6">
+                        <div class="single-footer-caption mb-50">
+                            <div class="single-footer-caption mb-30">
+                                <!-- logo -->
+                                <div class="footer-logo">
+                                    <a href="index.html"><img src="./assets/img/logo/logo.png" alt=""></a>
+                                </div>
+                                <div class="footer-tittle">
+                                    <div class="footer-pera">
+                                        <p>Seamlessly empowered fully researched growth strategies and interoperable production and communications systems at SP IT.</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-5">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Quick Links</h4>
+                                <ul>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#"> Offers & Discounts</a></li>
+                                    <li><a href="#"> Get Coupon</a></li>
+                                    <li><a href="#">  Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-7">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>New Products</h4>
+                                <ul>
+                                    <li><a href="#">Laptops</a></li>
+                                    <li><a href="#">Desktops</a></li>
+                                    <li><a href="#"> Smart Phones</a></li>
+                                    <li><a href="#"> Headphones</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-5 col-sm-7">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Support</h4>
+                                <ul>
+                                    <li><a href="#">Frequently Asked Questions</a></li>
+                                    <li><a href="#">Terms & Conditions</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Report a Payment Issue</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer bottom -->
+                <div class="row align-items-center">
+                    <div class="col-xl-5 col-lg-4 col-md-5">
+                        <div class="footer-copy-right f-right">
+                            <!-- social -->
+                            <div class="footer-social">
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-behance"></i></a>
+                                <a href="#"><i class="fas fa-globe"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End-->
+    </footer>
+
+    <!--? Search model Begin -->
+    <div class="search-model-box">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-btn">+</div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Searching key.....">
+            </form>
+        </div>
+    </div>
+    <!-- Search model end -->
+     <!-- JS here -->
+    <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+
+    <!-- Jquery, Popper, Bootstrap -->
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+
+    <!-- Jquery Mobile Menu -->
+    <script src="./assets/js/jquery.slicknav.min.js"></script>
+
+    <!-- Jquery Slick , Owl-Carousel Plugins -->
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+
+    <!-- One Page, Animated-HeadLin -->
+    <script src="./assets/js/wow.min.js"></script>
+    <script src="./assets/js/animated.headline.js"></script>
+
+    <!-- Scroll up, nice-select, sticky -->
+    <script src="./assets/js/jquery.scrollUp.min.js"></script>
+    <script src="./assets/js/jquery.nice-select.min.js"></script>
+    <script src="./assets/js/jquery.sticky.js"></script>
+    <script src="./assets/js/jquery.magnific-popup.js"></script>
+
+    <!-- contact js -->
+    <script src="./assets/js/contact.js"></script>
+    <script src="./assets/js/jquery.form.js"></script>
+    <script src="./assets/js/jquery.validate.min.js"></script>
+    <script src="./assets/js/mail-script.js"></script>
+    <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+
+    <!-- Jquery Plugins, main Jquery -->
+    <script src="./assets/js/plugins.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+    <!-- Frontend Javascript-->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script>
+        const baseUrl = "http://localhost:8001"
+        const token = localStorage.getItem("token");
+        //add admin check button
+            axios.get(`${baseUrl}/verify`,{
+            headers: { "Authorization": "Bearer " + token }
+            }).then((response)=>{
+
+                const type = response.data.type
+                const userid = response.data.userid
+                axios.get(`${baseUrl}/users/${userid}`).then((response)=>{
+                    let profile_pic_url = response.data.profile_pic_url
+                    let postHtml1 =
+                    `
+                        <a href="/login"><span><img src="./assets/uploads/pfp/${profile_pic_url}" alt="user icon" class="img-fluid rounded-circle"></span></a>
+                    `;
+                    $("#user-icon").append(postHtml1);
+
+                })
+                if (type=='admin'){
+                    let postHtml3 =
+                `
+                    <a href="/admin">Admin</a>
+                `
+                $("#admin").append(postHtml3);
+                console.log(type)
+                }
+            }).catch(function(err){
+                console.log(err)
+            })
+
+            //add logout button
+            let postHtml2 =
+                `
+                    <a href="/">Logout</a>
+                `
+            $("#logout").append(postHtml2);
+            let postHtml4 =
+                `
+                <a href="/interests">Interests</a>
+                `
+            $('#interest').append(postHtml4)
+            //add logout button logic
+            $('#logout').click((event) => {
+                event.preventDefault()
+                window.localStorage.clear();
+                window.location.href = '/';
+            })
+        $('.search-switch').on('click', function () {
+          $('.search-model-box').fadeIn(400);
+
+        });
+        $('.search-model-form').submit(function(event){
+            event.preventDefault();
+            window.localStorage.setItem('search-query',$('#search-input').val())
+            window.location.href= '/search'
+        }
+        );
+
+
+        $('.search-close-btn').on('click', function () {
+          $('.search-model-box').fadeOut(400, function () {
+          $('#search-input').val('');
+          });
+        });
+
+
+        $('.search-close-btn').on('click', function () {
+          $('.search-model-box').fadeOut(400, function () {
+          $('#search-input').val('');
+          });
+        });
+        if (token === null) {
+            window.location.href = "/login";
+        }else{
+            //verify user id
+            axios.get(`${baseUrl}/verify`,{
+            headers: { "Authorization": "Bearer " + token }
+            }).then((response)=>{
+                const type = response.data.type
+                const userid = response.data.userid
+                if (type=='admin'){
+                    axios.get(`${baseUrl}/users/${userid}`)
+                    .then((response) => {
+                    })
+                    .catch((error) => {
+                        console.log(error);
+                    });
+                    axios.get(`${baseUrl}/category`)
+                    .then((response)=>{
+                        const categories = response.data
+                        for (let i =0;i<categories.length;i++){
+                            $('#category').append(
+                                $('<option>', {
+                                value: categories[i].category_id,
+                                text: categories[i].category
+                                }))
+                            $('#category1').append(
+                                $('<option>', {
+                                value: categories[i].category_id,
+                                text: categories[i].category
+                                }))
+
+                            }
+                        $('select').niceSelect('update')
+                    }).catch(function(err){
+                        console.log(err)
+                    })
+                    axios.get(`${baseUrl}/product`).then((response)=>{
+                        let products = response.data
+                        for (let i =0;i<products.length;i++){
+                            $('#products').append(
+                                $('<option>', {
+                                value: products[i].product_id,
+                                text: products[i].name
+                                }))
+                            $('#products1').append(
+                                $('<option>', {
+                                value: products[i].product_id,
+                                text: products[i].name
+                                }))
+
+                            }
+                        $('select').niceSelect('update')
+                    }).catch((err)=> {
+                        console.log(err)
+                    })
+                     $('#new-product-form').submit(function(event){
+                         event.preventDefault()
+                         const name =  $('#name').val();
+                         const description =  $('#description').val();
+                         const category_id =  $('#category').val();
+                         const brand = $("#brand").val();
+                         const price = parseFloat($('#price').val())
+                         const file = $('#image')[0].files[0]
+                         const category_name = $("#category option:selected").text();
+                         console.log(category_name)
+                         const formData = new FormData()
+                         formData.append("name",name)
+                         formData.append("description",description)
+                         formData.append("category_id",category_id)
+                         formData.append("brand",brand)
+                         formData.append("price",price)
+                         formData.append('file',file)
+                         formData.append('category_name',category_name)
+                         axios.post(`${baseUrl}/product`, formData, {
+                            headers: {
+                              'Content-Type': 'multipart/form-data',
+                              "Authorization": "Bearer " + token
+                            }
+                        }).then((response)=>{
+                             if(response.status ==201){
+                                $('#prod_alert').empty()
+                                $('#prod_alert').append(
+                                    `
+                                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                            <strong>New Product Added</strong>
+                                            <button type="button" class="close" data-dismiss="alert"
+                                                    aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                    `
+                                )
+                                 $(':input','#new-product-form')
+                                  .not(':button, :submit, :reset, :hidden')
+                                  .val('')
+                                  .prop('checked', false)
+                                  .prop('selected', false);
+                            }
+                         }).catch((err)=>{
+                            console.log(err)
+                            if(err){
+                                $('#prod_alert').empty()
+                                $('#prod_alert').append(
+                                    `
+                                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                            <strong>Duplicate Product Disallowed</strong>
+                                            <button type="button" class="close" data-dismiss="alert"
+                                                    aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                    `
+                                )
+                            }
+                        })
+                     })
+                $('#new-category-form').submit(function(event){
+                    event.preventDefault()
+                    const Category =  $('#category_name').val();
+                    const Description =  $('#category_description').val();
+                    const formData = {
+                        "Category":Category,
+                        "Description":Description
+                    }
+                    axios.post(`${baseUrl}/category`, formData, {
+                    headers: {
+                      "Authorization": "Bearer " + token
+                    }
+                    }).then((response)=>{
+                        if(response.status ==201){
+                            $('#category').empty()
+                            $('#category1').empty()
+                            $('#cat_alert').empty()
+                            $('#cat_alert').append(
+                                `
+                                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                        <strong>New Category Added</strong>
+                                        <button type="button" class="close" data-dismiss="alert"
+                                                aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                `
+                            )
+                            $(':input','#new-category-form')
+                                  .not(':button, :submit, :reset, :hidden')
+                                  .val('')
+                                  .prop('checked', false)
+                                  .prop('selected', false);
+                            axios.get(`${baseUrl}/category`)
+                            .then((response)=>{
+                                const categories = response.data
+                                for (let i =0;i<categories.length;i++){
+                                    $('#category').append(
+                                        $('<option>', {
+                                        value: categories[i].category_id,
+                                        text: categories[i].category
+                                        }))
+                                    $('#category1').append(
+                                        $('<option>', {
+                                        value: categories[i].category_id,
+                                        text: categories[i].category
+                                        }))
+
+                                    }
+                                $('select').niceSelect('update')
+                            }).catch(function(err){
+                                console.log(err)
+                            })
+                        }
+                    }).catch((err)=>{
+                        console.log(err) //duplicate data
+                            if(err){
+                                $('#cat_alert').empty()
+                                $('#cat_alert').append(
+                                    `
+                                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                            <strong>Duplicate Category Disallowed</strong>
+                                            <button type="button" class="close" data-dismiss="alert"
+                                                    aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                    `
+                                )
+                            }
+                    })
+                })
+                $('#edit-product-form').submit(function(event){
+                        event.preventDefault()
+                        const product_id = $('#products').val()
+                        const name = $('#name1').val();
+                        const description = $("#description1").val();
+                        const brand = $("#brand1").val();
+                        const price = $("#price1").val();
+                        const category_id = $("#category1").val();
+                        const category_name = $("#category1 option:selected").text();
+                        var file = $('#image1')[0].files[0]
+                        const formData = new FormData()
+                        formData.append('category_id',category_id)
+                        formData.append('name',name)
+                        formData.append('description',description)
+                        formData.append('brand',brand)
+                        formData.append('price',price)
+                        formData.append('category_name',category_name)
+                        formData.append('file',file)
+                        axios.put(`${baseUrl}/product/${product_id}`, formData, {
+                            headers: {
+                              'Content-Type': 'multipart/form-data',
+                                "Authorization": "Bearer " + token
+                            }
+                        }).then((response)=>{
+                            console.log(response.status)
+                            if (response.status ==201){
+                                $('#prod_alert1').empty()
+                                $('#prod_alert1').append(
+                                    `
+                                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                            <strong>Product Edited!</strong>
+                                            <button type="button" class="close" data-dismiss="alert"
+                                                    aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                    `
+                                )
+                                $(':input','#edit-product-form')  //clear form data
+                                  .not(':button, :submit, :reset, :hidden')
+                                  .val('')
+                                  .prop('checked', false)
+                                  .prop('selected', false);
+                                axios.get(`${baseUrl}/product`).then((response)=>{
+                                     $('#products').empty()
+                                     $('#products1').empty()
+                                    let products = response.data
+                                    for (let i =0;i<products.length;i++){
+                                        $('#products').append(
+                                            $('<option>', {
+                                            value: products[i].product_id,
+                                            text: products[i].name
+                                            }))
+                                        $('#products1').append(
+                                            $('<option>', {
+                                            value: products[i].product_id,
+                                            text: products[i].name
+                                            }))
+
+                                        }
+                                    $('select').niceSelect('update')
+                                }).catch((err)=> {
+                                    console.log(err)
+                                })
+                            }
+
+                        }).catch((err)=>{
+                            console.log(err)
+                            $('#cart-alert').empty()
+                            if(err.response.status==422){ //duplicate data
+                                $('#prod_alert1').empty()
+                                $('#prod_alert1').append(
+                                    `
+                                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                            <strong>Duplicate Product Not Allowed!</strong>
+                                            <button type="button" class="close" data-dismiss="alert"
+                                                    aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                    `
+                                )
+                            }else{
+                                $('#prod_alert1').empty()
+                                $('#prod_alert1').append(
+                                    `
+                                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                            <strong>Internal Server Error!</strong>
+                                            <button type="button" class="close" data-dismiss="alert"
+                                                    aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                    `
+                                )
+                            }
+
+                        })
+                    })
+                    $('#delete-product-form').submit(function(event){
+                    event.preventDefault()
+                    const product_id =  $('#products1').val();
+                    console.log(product_id)
+                    axios.delete(`${baseUrl}/product/${product_id}`, {
+                    headers: {
+                      "Authorization": "Bearer " + token
+                    }
+                    }).then((response)=>{
+                        if(response.status ==204){
+                            $('#del_alert').empty()
+                            $('#del_alert').append(
+                                `
+                                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                        <strong>Product Deleted</strong>
+                                        <button type="button" class="close" data-dismiss="alert"
+                                                aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                `
+                            )
+                            $(':input','delete-product-form') //clear form data
+                                  .not(':button, :submit, :reset, :hidden')
+                                  .val('')
+                                  .prop('checked', false)
+                                  .prop('selected', false);
+                            axios.get(`${baseUrl}/product`).then((response)=>{
+                                     $('#products').empty()
+                                     $('#products1').empty()
+                                    let products = response.data
+                                    for (let i =0;i<products.length;i++){
+                                        $('#products').append(
+                                            $('<option>', {
+                                            value: products[i].product_id,
+                                            text: products[i].name
+                                            }))
+                                        $('#products1').append(
+                                            $('<option>', {
+                                            value: products[i].product_id,
+                                            text: products[i].name
+                                            }))
+
+                                        }
+                                    $('select').niceSelect('update')
+                                }).catch((err)=> {
+                                    console.log(err)
+                                })
+                        }
+                    }).catch((err)=>{
+                        console.log(err)
+                            if(err){
+                                $('#del_alert').empty()
+                                $('#del_alert').append(
+                                    `
+                                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                            <strong>Error Occurred Deleting Product</strong>
+                                            <button type="button" class="close" data-dismiss="alert"
+                                                    aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                    `
+                                )
+                            }
+                    })
+                })
+                }else{
+                    window.location.href = "/login"; //if not admin
+                }
+            }).catch((err)=>{
+                console.log(err)
+            })
+        }
+
+    </script>
+</body>
+</html>

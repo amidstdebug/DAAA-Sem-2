@@ -1,0 +1,53 @@
+,Year,Road Type,Road Length
+0,2005,Local Road,2036
+1,2005,Arterial Road,594
+2,2005,Collector Road,455
+3,2005,Expressway,150
+4,2006,Local Road,2040
+5,2006,Arterial Road,604
+6,2006,Collector Road,468
+7,2006,Expressway,150
+8,2007,Local Road,2042
+9,2007,Arterial Road,613
+10,2007,Collector Road,489
+11,2007,Expressway,153
+12,2008,Local Road,2043
+13,2008,Arterial Road,621
+14,2008,Collector Road,500
+15,2008,Expressway,161
+16,2009,Local Road,2046
+17,2009,Arterial Road,627
+18,2009,Collector Road,521
+19,2009,Expressway,161
+20,2010,Local Road,2047
+21,2010,Arterial Road,627
+22,2010,Collector Road,521
+23,2010,Expressway,161
+24,2011,Local Road,2048
+25,2011,Arterial Road,645
+26,2011,Collector Road,557
+27,2011,Expressway,161
+28,2012,Local Road,2051
+29,2012,Arterial Road,652
+30,2012,Collector Road,561
+31,2012,Expressway,161
+32,2013,Local Road,2055
+33,2013,Arterial Road,662
+34,2013,Collector Road,571
+35,2013,Expressway,164
+36,2014,Local Road,2055
+37,2014,Arterial Road,698
+38,2014,Collector Road,578
+39,2014,Expressway,164
+40,2015,Local Road,2057
+41,2015,Arterial Road,699
+42,2015,Collector Road,580
+43,2015,Expressway,164
+44,2016,Local Road,2059
+45,2016,Arterial Road,704
+46,2016,Collector Road,585
+47,2016,Expressway,164
+48,2017,Local Road,2056
+49,2017,Arterial Road,704
+50,2017,Collector Road,576
+51,2017,Expressway,164

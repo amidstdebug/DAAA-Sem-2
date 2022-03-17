@@ -1,0 +1,10 @@
+{
+  "userid": 1,
+  "username": "David",
+  "email": "david@email.com",
+  "contact": 91234567,
+  "password": "davidpass",
+  "type": "admin",
+  "profile_pic_url": "david_logo.png",
+  "created_at": "2022-02-05 19:07:47"
+}

@@ -19,7 +19,7 @@
         closedSymbol: '+',
         openedSymbol:'-'
       });
-    };
+    }
 
 
 /* 3. MainSlider-1 */

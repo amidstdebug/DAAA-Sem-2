@@ -69,58 +69,22 @@ YDAVI/International Arrivals from 1961 to 2019/total-air-passenger-arrivals-by-c
 rDAVI/International Arrivals from 1978 - 2015 (SARS)/metadata-total-visitor-international-arrivals-to-singapore.txt,c\5\c5fbe818443542c7c11002b6d082b5801179befa
 ~
 NDAVI/International Arrivals from 1961 to 2019/total-air-passenger-arrivals.csv,5\c\5cf2be12da2320ed436abf8f54ffe5caf0bbb206
-‘
-£PDAS/DAAA1B04_2112646_Justin_Wong_Juin_Hng/Datasets/(4) Estimated Singapore Resident Population in HDB Flats/estimated-resident-population-in-hdb-flats-by-town.csv,6\7\6773234b231d952e9eecdbb2589a5d888a496e37
 ¶
 vDAVI/International Arrivals from 1978 - 2015 (SARS)/visitor-international-arrivals-to-singapore-by-country-monthly.csv,6\8\68a85389662018e661286a971966349cdf71d446
-≠
-}PDAS/DAAA1B04_2112646_Justin_Wong_Juin_Hng/Datasets/(1) Price Range of HDB Flats Offered/price-range-of-hdb-flats-offered.csv,8\3\835ae02af567b30fe51c0e4ce00a6e1ee2519e9b
 î
 dDAVI/International Arrivals from 1978 - 2015 (SARS)/total-visitor-international-arrivals-monthly.csv,4\a\4acde0de6c9d9cd75e651ad0846a16aa1a35ee04
-‹
-´PDAS/DAAA1B04_2112646_Justin_Wong_Juin_Hng/Datasets/(4) Estimated Singapore Resident Population in HDB Flats/metadata-estimated-resident-population-living-in-hdb-flats.txt,b\d\bd7c2b993d9ab710dfbde2de421d3ce184dbbfc9
 •
 uDAVI/International Arrivals from 1978 - 2015 (SARS)/visitor-international-arrivals-to-singapore-by-region-monthly.csv,9\4\948659a99a008bf95daa88cbe1e06aad817bb5bd
-¶
-vPDAS/DAAA1B04_2112646_Justin_Wong_Juin_Hng/Datasets/(5) HDB Property Information/metadata-hdb-property-information.txt,3\a\3a20c171ce82a46cf550d395fa7485b124c7db81
-ù
-mPDAS/DAAA1B04_2112646_Justin_Wong_Juin_Hng/Datasets/(5) HDB Property Information/hdb-property-information.csv,5\9\591a90b29c8a65b5ae0d962f72aa522883028a06
 o
 ?BEWD/Chapters/Chapter_4/nodeJS/express_server/public/index.html,b\e\be3ec9561347e2cd778c0fcb78da491e47778ef2
-∑
-ÜPDAS/DAAA1B04_2112646_Justin_Wong_Juin_Hng/Datasets/(1) Price Range of HDB Flats Offered/metadata-price-range-of-hdb-flats-offered.txt,2\e\2edb873f8b15483d101672e80b0c6c67a7a16b18
-©
-yPDAS/DAAA1B04_2112646_Justin_Wong_Juin_Hng/Datasets/(2) Bookings for New Flats/metadata-bookings-for-new-flats-annual.txt,c\a\ca5c6ab9032f84ed9e1a677d768e2d3d24e0e795
-ô
-iPDAS/DAAA1B04_2112646_Justin_Wong_Juin_Hng/Datasets/(2) Bookings for New Flats/bookings-for-new-flats.csv,a\0\a07d46126325551a320a3ab36bb8ddc0b26030b1
 o
 ?BEWD/Chapters/Chapter_4/nodeJS/express_server/public/error.html,4\c\4c438f9986bf2b23831719786fa050f3c7de04eb
-¢
-rPDAS/DAAA1B04_2112646_Justin_Wong_Juin_Hng/Datasets/(6) HDB Resale Price Index/metadata-hdb-resale-price-index.txt,4\d\4dc20631a621a29e6eef58066a3a5314453d3091
-…
-òPDAS/DAAA1B04_2112646_Justin_Wong_Juin_Hng/Datasets/(6) HDB Resale Price Index/housing-and-development-board-resale-price-index-1q2009-100-quarterly.csv,c\d\cdcbe6712a4d3e52f3e6a5d52ff01cfe6d17bbd0
-o
-?PDAS/DAAA1B04_2112646_Justin_Wong_Juin_Hng/Datasets/Credits.txt,2\6\26c1ba3e62be180ed1bc01e0e168eb00e9a4b5d4
-ò
-hPDAS/DAAA1B04_2112646_Justin_Wong_Juin_Hng/Datasets/(3) Flats Constructed/metadata-flats-constructed.txt,d\1\d1c03a612be213cfe137e294a7d0b046e33fce8f
-∏
-áPDAS/DAAA1B04_2112646_Justin_Wong_Juin_Hng/Datasets/(3) Flats Constructed/flats-constructed-by-housing-and-development-board-annual.csv,f\9\f908aab75862f6ad3dc0e984440218b767485f1b
 T
 $BEWD/Practicals/Practical_1/file.txt,0\2\02327347c74e54a053e6ca7c90a752003ce60320
 U
 %BEWD/Practicals/Practical_1/p1test.js,a\0\a012984cde46da7b047800b4fe7898fab3ff54d6
-e
-5PDAS/DAAA1B04_2112646_Justin_Wong_Juin_Hng/Chart 6.py,5\4\544d9577fa05a013288e4744491dfb0929b4c05a
-e
-5PDAS/DAAA1B04_2112646_Justin_Wong_Juin_Hng/Chart 5.py,9\2\921fbd17deabf3f84a55f8a253fd3e5efa209403
-e
-5PDAS/DAAA1B04_2112646_Justin_Wong_Juin_Hng/Chart 4.py,4\7\472632035dfd3f80d11d1dcd4550d72065a96b1a
-e
-5PDAS/DAAA1B04_2112646_Justin_Wong_Juin_Hng/Chart 3.py,c\5\c5a313c160beabaad1010613827a8d5f2ea4bc94
 Y
 )PDAS/Jupyter_Notebooks/mst_practice.ipynb,c\c\ccdda2a8ee06db81360549cca15726076a781597
-e
-5PDAS/DAAA1B04_2112646_Justin_Wong_Juin_Hng/Chart 2.py,2\4\248a91df7ebcc2d90b43d0cf6d19a6aee5bbc413
 o
 ?BEWD/Chapters/Chapter_6/web_service_sql/model/databaseConfig.js,2\d\2decf9f4470324a8fe2fb26787b06485da158751
 p
@@ -133,8 +97,6 @@ o
 ?BEWD/Chapters/Chapter_4/nodeJS/express_server/package-lock.json,a\d\ad7d2a06f1250b4fc9b5d20d6b0f38e817a239d6
 ^
 ..idea/inspectionProfiles/profiles_settings.xml,1\e\1e9075f5bf079c01ef2c910709e91a497d262080
-D
-PDAS/SGresidents.csv,9\6\962f56d798f0dae832ddce7fe499670e14d7be01
 Q
 !PDAS/Jupyter_Notebooks/p3q8.ipynb,e\2\e2a0e155a36a1a1a8e6626feab4a86d8b694c37c
 Q
@@ -152,17 +114,9 @@ $PDAS/Practicals/Practical_2/p2 q1.py,8\c\8cd249262b0bb92adf0fd546b451dd56eb736
 T
 $PDAS/Practicals/Practical_2/p2 q2.py,2\d\2d54b99ba2b79bd6ef2f412c2f20c93e30d8fb13
 ^
-.PDAS/Practicals/Practical_0/Practical 0 (2).py,2\a\2a3e039ce8f4263787fc1447a9a978536d44798c
-Z
-*PDAS/Practicals/Practical_1/Practical 1.py,f\f\ffc81ea1199f60e1e33ebfbd025d1e67a3714dd6
-^
 .PDAS/Practicals/Practical_0/Practical 0 (4).py,7\b\7bec01630bf349eb6023c114a3ad979f2bf191a8
 ^
 .PDAS/Practicals/Practical_0/Practical 0 (3).py,f\3\f3e6fbd69e4ec2f35512d81cf82e1db9ab561e00
-Z
-*PDAS/Practicals/Practical_0/Practical 0.py,7\0\70c4903fd932a5fe9e60914b06cc5e3c280f8d21
-^
-.PDAS/Practicals/Practical_0/Practical 0 (6).py,4\8\4819e5a330203fb2267d22d96d6396cdbf5b31ad
 ^
 .PDAS/Practicals/Practical_0/Practical 0 (5).py,5\2\5269342649157c97914fc60d7d0d96cdc04ad64f
 B
@@ -181,20 +135,8 @@ p
 @BEWD/Practicals/Practical_2/nodeJS/node_server/public/error.html,f\2\f297266e3a55462067034b961f4c7635f62e17e8
 Q
 !PDAS/Jupyter_Notebooks/p2q2.ipynb,7\1\71e7e42ee6e47780d36a17a17350b2e948305bc0
-Y
-)PDAS/Assignment 2/(2) Data Cleaning.ipynb,1\3\13a8c58969e2d88e958484bc5367bea7af0c5c6d
-Z
-*PDAS/Assignment 2/(3) Data Wrangling.ipynb,6\6\66eee058f72622c8865e8611a96d05567bf8fab9
-^
-.PDAS/Assignment 2/(4) Data Visualisation.ipynb,6\4\64dd009e138fff0295653ed57e59eb1ddb4c099d
-r
-BPDAS/DAAA1B04_2112646_Justin_Wong_Juin_Hng/Combined Datasets.ipynb,7\6\762e27c74dd723fbfee1a3793cbe8dcde31eb22d
 í
 bBEWD/Assignments/Past/P2112646_Justin_Wong_Juin_Hng_DAAA1B04 Assignment 1/model/databaseConnect.js,1\2\12881c1a7ceda8da8a3a4a3eeeb309973873122e
-e
-5PDAS/DAAA1B04_2112646_Justin_Wong_Juin_Hng/Chart 1.py,b\0\b0c5aa9b4778ab778c23167556522e89d0067691
-[
-+PDAS/Assignment 2/(1) Data Extraction.ipynb,5\1\510b050ea8f71d20e849e956562f3950843c7ca6
 C
 PDAS/Tests/test1.py,8\4\845531b940bfeaafb73b14d404cb19524c32f9d5
 l
@@ -207,8 +149,6 @@ z
 JBEWD/Assignments/bed-assignment-2/frontend/public/assets/scss/_common.scss,b\f\bf21f0cd1249719e5b8b91f45ce910bddd153381
 p
 @BEWD/Assignments/bed-assignment-2/frontend/public/css/signup.css,5\4\54f7afae0d334336fef98749883b876d53c25aac
-q
-ABEWD/Assignments/bed-assignment-2/backend/model/databaseConfig.js,9\6\96f74309c485a4b78e0c7067b273b35c07dc86fa
 c
 3BEWD/Assignments/bed-assignment-2/backend/server.js,c\7\c7bbfe17430b2a070af71f729dfd0d2dbd2ee49c
 c
@@ -219,8 +159,6 @@ k
 ;BEWD/Assignments/bed-assignment-2/backend/package-lock.json,9\3\934d683d986e12381ec2c816073ad5e3ed37d490
 f
 6BEWD/Assignments/bed-assignment-2/backend/package.json,8\d\8db29cb89cf3a2622cada8d1f7323abd11fcf1f3
-l
-<BEWD/Assignments/bed-assignment-2/frontend/public/admin.html,4\6\46f45321a2eeb3068b9dec460314df7c8123e3db
 k
 ;BEWD/Assignments/bed-assignment-2/frontend/public/blog.html,5\5\553506303433259625e9aa861c1cfdd4c2f21166
 k
@@ -239,3 +177,31 @@ m
 =BEWD/Assignments/bed-assignment-2/frontend/public/signup.html,1\1\1169833111b83d7993c4d6dcd1ebee76d37adac5
 v
 FBEWD/Assignments/bed-assignment-2/frontend/public/product_details.html,4\8\486b0d21575d42ca575cb996ce8e32dd4a1f7a1e
+k
+;BEWD/Assignments/bed-assignment-2/frontend/public/shop.html,9\5\950195174fe3668d30f443bd645a60ecc520340f
+l
+<BEWD/Assignments/bed-assignment-2/frontend/public/login.html,b\8\b89ca29277d9ff5a75d8f20956eee83b41b97fc5
+l
+<BEWD/Assignments/bed-assignment-2/frontend/public/index.html,d\6\d6d9f8204c8e8dc81a8c072f80ce4a49b613df3e
+r
+BBEWD/Assignments/bed-assignment-2/backend/model/databaseConnect.js,c\e\ce643302aca6578b533c490335ebe1aff8fd5b2d
+Z
+*PDAS/Practicals/Practical_0/Practical 0.py,7\0\70c4903fd932a5fe9e60914b06cc5e3c280f8d21
+^
+.PDAS/Practicals/Practical_0/Practical 0 (2).py,2\a\2a3e039ce8f4263787fc1447a9a978536d44798c
+^
+.PDAS/Practicals/Practical_0/Practical 0 (6).py,4\8\4819e5a330203fb2267d22d96d6396cdbf5b31ad
+Z
+*PDAS/Practicals/Practical_1/Practical 1.py,f\f\ffc81ea1199f60e1e33ebfbd025d1e67a3714dd6
+l
+<BEWD/Assignments/bed-assignment-2/frontend/public/admin.html,4\6\46f45321a2eeb3068b9dec460314df7c8123e3db
+z
+JBEWD/Assignments/bed-assignment-2/frontend/public/assets/js/price_rangs.js,7\1\71c5cbb0fc4dc17a9086fe660c6d646658bdcfb8
+c
+3BEWD/Assignments/bed-assignment-2/frontend/index.js,c\8\c8d783d27651b82ecfe1ad22e7b85b85b7796efb
+k
+;BEWD/Assignments/bed-assignment-2/backend/controller/app.js,2\1\213dfc760bd0a1127d1e10e64191f35e4d5eee4c
+t
+DPDAS/DAAA1B04_2112646_Justin_Wong_Juin_Hng/(1) Data Extraction.ipynb,c\b\cb795f4c4eb12c373f5a6cc3e45bb071895f61f4
+w
+GPDAS/DAAA1B04_2112646_Justin_Wong_Juin_Hng/(2) Data Visualisation.ipynb,4\d\4d9f5f47f2cd3e2c586630535f1aaf9ee939f4ef

@@ -1,0 +1,15 @@
+Year,accident_classification,Road User Group,Cause of Accident,Number of Accidents
+2012,FATAL,Pedestrians,Failing to Keep a Proper Lookout,59
+2012,INJURY,"Drivers, Riders or Cyclists",Failing to Keep a Proper Lookout,2710
+2013,FATAL,"Drivers, Riders or Cyclists",Failing to Keep a Proper Lookout,53
+2013,INJURY,"Drivers, Riders or Cyclists",Under the Influence of Alcohol,2398
+2014,FATAL,"Drivers, Riders or Cyclists",Failing to Keep a Proper Lookout,55
+2014,INJURY,"Drivers, Riders or Cyclists",Failing to Keep a Proper Lookout,2459
+2015,FATAL,"Drivers, Riders or Cyclists",Failing to Keep a Proper Lookout,58
+2015,INJURY,"Drivers, Riders or Cyclists",Failing to Keep a Proper Lookout,2592
+2016,FATAL,"Drivers, Riders or Cyclists",Failing to Keep a Proper Lookout,42
+2016,INJURY,"Drivers, Riders or Cyclists",Failing to Keep a Proper Lookout,2742
+2017,FATAL,"Drivers, Riders or Cyclists",Failing to Keep a Proper Lookout,32
+2017,INJURY,"Drivers, Riders or Cyclists",Failing to Keep a Proper Lookout,2076
+2018,FATAL,"Drivers, Riders or Cyclists",Failing to Keep a Proper Lookout,38
+2018,INJURY,"Drivers, Riders or Cyclists",Failing to Have Proper Control ,1964

@@ -1,0 +1,40 @@
+{
+	"folders": [
+		{
+			"name": "DAAA-Sem-2",
+			"path": "."
+		},
+		{
+			"path": "..\\..\\PycharmProjects\\Github Sync"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true,
+		"sqltools.connections": [
+			{
+				"mysqlOptions": {
+					"authProtocol": "default"
+				},
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 3306,
+				"askForPassword": true,
+				"driver": "MySQL",
+				"name": "BED Assignment 2",
+				"database": "bed_assignment2",
+				"username": "localhost"
+			}
+		],
+		"liveServer.settings.multiRootWorkspaceName": "Github Sync"
+	},
+	"launch": {
+		"configurations": [
+			{
+				"name": "Launch Microsoft Edge and open the Edge DevTools",
+				"request": "launch",
+				"type": "vscode-edge-devtools.debug",
+				"url": ""
+			}
+		]
+	}
+}

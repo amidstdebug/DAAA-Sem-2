@@ -1,0 +1,76 @@
+# Metadata for Road Traffic Conditions during Peak Hours
+---
+Identifier: '8f0dbbe0-7788-4d77-a7a3-d741b115d12a'
+Name: 'road-traffic-conditions'
+Title: 'Road Traffic Conditions during Peak Hours'
+Description: 'Daily traffic volume is recorded between 7.30am-7.00pm on weekdays;
+  Avg speed and congestion-free roads are for peak hour periods, i.e. 8-9am & 6-7pm
+  on weekdays.'
+Topics:
+  - 'Transport'
+Keywords:
+  - 'Road Infrastructure'
+Publisher:
+  Name: 'Land Transport Authority'
+  Admin 1:
+    Name: 'Land Transport Authority'
+    Department: 'Land Transport Authority'
+    Email: 'Datamall@LTA.gov.sg'
+Sources:
+  - 'Land Transport Authority'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2004-01-01 to 2014-12-31'
+Last Updated: '2021-01-13T06:13:20.868235'
+Resources:
+  -
+    Identifier: 'f2451c6c-1469-4d8b-8c4f-a4aab9de40e3'
+    Title: 'Average Daily Traffic Volume Entering the City'
+    Url: 'https://storage.data.gov.sg/road-traffic-conditions/resources/average-daily-traffic-volume-entering-the-city-2017-04-02T13-15-50Z.csv'
+    Format: 'CSV'
+    Coverage: '2004-01-01 to 2014-12-31'
+    Description: 'Daily traffic volume is recorded between 7.30am-7.00pm on weekdays.'
+    Last Updated: '2017-04-02T13:15:50.799705'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'ave_daily_traffic_volume_entering_city'
+        Title: 'Average Daily Traffic Volume Entering City'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. of Vehicles'
+        Description: 'Rounded to nearest thousand'
+  -
+    Identifier: 'bdfdb0b5-c3a4-4dc9-8a9a-ec130ba9fd0f'
+    Name: 'average-speed-during-peak-hours.csv'
+    Title: 'Average Speed During Peak Hours'
+    Url: 'https://data.gov.sg/dataset/8f0dbbe0-7788-4d77-a7a3-d741b115d12a/resource/bdfdb0b5-c3a4-4dc9-8a9a-ec130ba9fd0f/download/average-speed-during-peak-hours.csv'
+    Format: 'CSV'
+    Coverage: '2004-01-01 to 2014-12-31'
+    Description: 'Average speed & congestion-free roads are for peak hour periods,
+      i.e. 8 to 9am and 6 to 7pm on weekdays.'
+    Last Updated: '2016-04-28T10:41:32.793216'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'ave_speed_expressway'
+        Title: 'Average Speed on Expressways'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Kilometres/Hour'
+      -
+        Name: 'ave_speed_arterial_roads'
+        Title: 'Average Speed on Arterial Roads'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Kilometres/Hour'

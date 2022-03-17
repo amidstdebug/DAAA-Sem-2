@@ -1,7 +1,7 @@
 v = 5
 
 for i in range(v):
-    underscore = i+1
+    underscore = i + 1
     symbol = ''
     for x in range(underscore):
         symbol = symbol + '|'
@@ -9,7 +9,7 @@ for i in range(v):
     print(symbol)
 
 for i in range(v):
-    underscore = v-i-1
+    underscore = v - i - 1
     symbol = ''
     for x in range(underscore):
         symbol = symbol + '|'

@@ -59,7 +59,7 @@ jQuery(document).ready(function($){
 				    if (wordWidth > width) width = wordWidth;
 				});
 				headline.find('.cd-words-wrapper').css('width', width);
-			};
+			}
 
 			//trigger animation
 			setTimeout(function(){ hideWord( headline.find('.is-visible').eq(0) ) }, duration);

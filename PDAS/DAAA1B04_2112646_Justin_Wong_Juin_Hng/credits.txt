@@ -1,0 +1,3 @@
+https://data.bls.gov/pdq/SurveyOutputServlet
+https://www.tableau.com/learn/articles/what-is-data-cleaning
+https://www.budgetdirect.com.sg/car-insurance/research/why-are-cars-so-expensive-in-singapore

@@ -3,20 +3,20 @@
 // DAAA/1B/04
 
 let mysql = require('mysql');
- let dbConnect = {
-     getConnection : function(){
-         let conn = mysql.createConnection({
-             host: 'localhost',
-             user:'root',
-             password: 'laxcrumb529ladbutterfly!',
-             database:'bed_assignment2',
-             dateStrings:true,
-             multipleStatements: true
-             }
+let dbConnect = {
+    getConnection: function () {
+        let conn = mysql.createConnection({
+            host: 'localhost',
+            user: 'root',
+            password: 'laxcrumb529ladbutterfly!',
+            database: 'bed_assignment2',
+            dateStrings: true,
+            multipleStatements: true
+        }
 
-         )
-         return conn;
-     }
- }
+        )
+        return conn;
+    }
+}
 
- module.exports = dbConnect
+module.exports = dbConnect

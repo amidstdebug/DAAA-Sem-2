@@ -1,28 +1,31 @@
 <!doctype html>
 <html class="no-js" lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>SP IT | Add Review</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.ico">
 
     <!-- CSS here -->
-        <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
-        <link rel="stylesheet" href="./assets/css/flaticon.css">
-        <link rel="stylesheet" href="./assets/css/slicknav.css">
-        <link rel="stylesheet" href="./assets/css/animate.min.css">
-        <link rel="stylesheet" href="./assets/css/magnific-popup.css">
-        <link rel="stylesheet" href="./assets/css/fontawesome-all.min.css">
-        <link rel="stylesheet" href="./assets/css/themify-icons.css">
-        <link rel="stylesheet" href="./assets/css/slick.css">
-        <link rel="stylesheet" href="./assets/css/nice-select.css">
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <link rel="stylesheet" href="./assets/css/custom.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/flaticon.css">
+    <link rel="stylesheet" href="./assets/css/slicknav.css">
+    <link rel="stylesheet" href="./assets/css/animate.min.css">
+    <link rel="stylesheet" href="./assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="./assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="./assets/css/themify-icons.css">
+    <link rel="stylesheet" href="./assets/css/slick.css">
+    <link rel="stylesheet" href="./assets/css/nice-select.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/custom.css">
 </head>
+
 <body>
 
     <!--? Preloader Start -->
@@ -124,7 +127,8 @@
                     <div class="col-lg-8">
                         <div class="subscribe_part_content mt-50 mb-50">
                             <h2>Get promotions & updates!</h2>
-                            <p>Seamlessly empower fully researched growth strategies and interoperable production and communications systems at SP IT!</p>
+                            <p>Seamlessly empower fully researched growth strategies and interoperable production and
+                                communications systems at SP IT!</p>
                             <div class="subscribe_form">
                                 <form id="subscribe">
                                     <div id="email-submit">
@@ -155,8 +159,9 @@
                                 </div>
                                 <div class="footer-tittle">
                                     <div class="footer-pera">
-                                        <p>Seamlessly empowered fully researched growth strategies and interoperable production and communications systems at SP IT.</p>
-                                </div>
+                                        <p>Seamlessly empowered fully researched growth strategies and interoperable
+                                            production and communications systems at SP IT.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -169,7 +174,7 @@
                                     <li><a href="#">About</a></li>
                                     <li><a href="#"> Offers & Discounts</a></li>
                                     <li><a href="#"> Get Coupon</a></li>
-                                    <li><a href="#">  Contact Us</a></li>
+                                    <li><a href="#"> Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -272,32 +277,32 @@
         const baseUrl = "http://localhost:8001";
         const token = localStorage.getItem("token");
         $('.search-switch').on('click', function () {
-          $('.search-model-box').fadeIn(400);
+            $('.search-model-box').fadeIn(400);
 
         });
-        $('.search-model-form').submit(function(event){
+        $('.search-model-form').submit(function (event) {
             event.preventDefault();
-            window.localStorage.setItem('search-query',$('#search-input').val())
-            window.location.href= '/search'
+            window.localStorage.setItem('search-query', $('#search-input').val())
+            window.location.href = '/search'
         }
         );
 
 
         $('.search-close-btn').on('click', function () {
-          $('.search-model-box').fadeOut(400, function () {
-          $('#search-input').val('');
-          });
+            $('.search-model-box').fadeOut(400, function () {
+                $('#search-input').val('');
+            });
         });
 
 
         $('.search-close-btn').on('click', function () {
-          $('.search-model-box').fadeOut(400, function () {
-          $('#search-input').val('');
-          });
+            $('.search-model-box').fadeOut(400, function () {
+                $('#search-input').val('');
+            });
         });
         if (token == null) {
-            window.localStorage.setItem('review-alert','true')
-            window.location.href='/'
+            window.localStorage.setItem('review-alert', 'true')
+            window.location.href = '/'
         } else {
             let postHtml =
                 `
@@ -361,44 +366,44 @@
                 </div>
                 `
             $('#login_part').append(postHtml2)
-            axios.get(`${baseUrl}/product`).then((response)=>{
+            axios.get(`${baseUrl}/product`).then((response) => {
                 let products = response.data
-                for (let i =0;i<products.length;i++){
+                for (let i = 0; i < products.length; i++) {
                     $('#products').append(
                         $('<option>', {
-                        value: products[i].product_id,
-                        text: products[i].name
+                            value: products[i].product_id,
+                            text: products[i].name
                         }))
 
-                    }
+                }
                 $('select').niceSelect('update')
-            }).catch((err)=> {
+            }).catch((err) => {
                 console.log(err)
             })
-            $('#review-form').submit(function(event){
+            $('#review-form').submit(function (event) {
                 event.preventDefault()
-                axios.get(`${baseUrl}/verify`,{
-                headers: { "Authorization": "Bearer " + token }
-                }).then((response)=>{
+                axios.get(`${baseUrl}/verify`, {
+                    headers: { "Authorization": "Bearer " + token }
+                }).then((response) => {
                     const type = response.data.type
                     const userid = response.data.userid
                     const rating = $('#rating').val();
                     const review = $("#review").val();
                     const product_id = $('#products').val()
-                    let requestBody={
-                        "user_id":userid,
-                        "rating":rating,
-                        "review":review
+                    let requestBody = {
+                        "user_id": userid,
+                        "rating": rating,
+                        "review": review
                     }
                     axios.post(`${baseUrl}/product/${product_id}/review`, requestBody, {
-                    headers: { "Authorization": "Bearer " + token }
-                    }).then((response)=>{
+                        headers: { "Authorization": "Bearer " + token }
+                    }).then((response) => {
                         console.log(response.data)
-                        window.location.href='/reviews'
-                    }).catch((err)=>{
-                        if(err.response){
+                        window.location.href = '/reviews'
+                    }).catch((err) => {
+                        if (err.response) {
                             console.log(err.response.status)
-                            if(err.response.status==422){
+                            if (err.response.status == 422) {
                                 $('#alert').empty()
                                 $('#alert').append(
 
@@ -411,8 +416,8 @@
                                         </div>
                                     `
                                 )
-                            }else{
-                                 $('#alert').empty()
+                            } else {
+                                $('#alert').empty()
                                 $('#alert').append(
 
                                     `
@@ -427,46 +432,46 @@
                             }
                         }
                     })
-                }).catch(function(err){
+                }).catch(function (err) {
                     console.log(err.headers)
                 })
 
             })
             //add admin check button
-            axios.get(`${baseUrl}/verify`,{
-            headers: { "Authorization": "Bearer " + token }
-            }).then((response)=>{
+            axios.get(`${baseUrl}/verify`, {
+                headers: { "Authorization": "Bearer " + token }
+            }).then((response) => {
 
                 const type = response.data.type
                 const userid = response.data.userid
-                axios.get(`${baseUrl}/users/${userid}`).then((response)=>{
+                axios.get(`${baseUrl}/users/${userid}`).then((response) => {
                     let profile_pic_url = response.data.profile_pic_url
                     let postHtml1 =
-                    `
+                        `
                         <a href="/login"><span><img src="./assets/uploads/pfp/${profile_pic_url}" alt="user icon" class="img-fluid rounded-circle"></span></a>
                     `;
                     $("#user-icon").append(postHtml1);
 
                 })
-                if (type=='admin'){
+                if (type == 'admin') {
                     let postHtml3 =
-                `
+                        `
                     <a href="/admin">Admin</a>
                 `
-                $("#admin").append(postHtml3);
-                console.log(type)
+                    $("#admin").append(postHtml3);
+                    console.log(type)
                 }
 
                 $('#subscribe').submit((event) => {
                     event.preventDefault()
                     const email = $('#email').val()
                     let requestBody = {
-                        "email":email
+                        "email": email
                     }
-                    if(email!=''){
-                        axios.post(`${baseUrl}/news/${userid}`,requestBody,{
-                         headers: { "Authorization": "Bearer " + token }
-                        }).then((response)=>{
+                    if (email != '') {
+                        axios.post(`${baseUrl}/news/${userid}`, requestBody, {
+                            headers: { "Authorization": "Bearer " + token }
+                        }).then((response) => {
                             console.log(response)
                             $('#email-submit').empty()
                             $('#email-submit').append(
@@ -475,8 +480,8 @@
                                     <button class="btn_1" type="submit" aria-disabled="true" disabled>Subscribe</button>
                                 `
                             )
-                        }).catch((err)=>{
-                            if(err.response.status==422){
+                        }).catch((err) => {
+                            if (err.response.status == 422) {
                                 $('#email-submit').empty()
                                 $('#email-submit').append(
                                     `
@@ -489,7 +494,7 @@
                     }
 
                 })
-            }).catch(function(err){
+            }).catch(function (err) {
                 console.log(err)
             })
             //add logout button
